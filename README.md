@@ -153,12 +153,14 @@ Google-certified CMP only come with AdSense.
 - **Sign texts** – written for this site from Tieliikennelaki 729/2018 (sections 75–83 and
   annex 3, Finlex). Finnish legislation is not protected by copyright (Copyright Act, section 9).
 - **Font** – Manrope, SIL Open Font License 1.1; subset to Latin and served from this site.
-- **Store badges** – **TODO:** add the official badges unmodified as
+- **Store badges** – the official badges, unmodified:
   `static/badges/app-store-fi.svg` (Apple Marketing Tools, Finnish black badge:
   `https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/fi-fi?size=250x83`)
   and `static/badges/google-play-fi.png` (Google Play, Finnish:
   `https://play.google.com/intl/en_us/badges/static/images/badges/fi_badge_web_generic.png`).
-  The build uses them automatically; until then plain text buttons are shown.
+  Both are shown at the same visible height (52 px). Apple and Google allow these badges only
+  unmodified and only as links to the app's store pages. Without the files the build falls
+  back to plain text buttons.
 
 ## AdSense stage (only when the owner says traffic is enough)
 
