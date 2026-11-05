@@ -7,9 +7,9 @@ export default {
   lang: 'fi',
   locale: 'fi_FI',
   email: 'metinozetle@gmail.com',
-  // TODO: publisher's name as shown as the App Store seller. Until then the
-  // site says "itsenäinen kehittäjä" and never invents a title.
-  publisher: null,
+  // Publisher as named in the app's published privacy policy; also the data
+  // controller on /tietosuoja/.
+  publisher: 'Salih Enes Metin',
   appStore: {
     id: '6821930495',
     // TODO: replace with the App Store Connect campaign link (ct=web_teoriakoefi).
