@@ -6,3 +6,4 @@ dist/
 # Service account keys live only in GitHub Secrets.
 *service-account*.json
 *-firebase-adminsdk-*.json
+.screens/
