@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.firebase/
+*.log
+.DS_Store
+# Service account keys live only in GitHub Secrets.
+*service-account*.json
+*-firebase-adminsdk-*.json

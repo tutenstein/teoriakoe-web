@@ -1,0 +1,144 @@
+{
+ "topics": [
+  {
+   "id": "rules",
+   "en": "Basic traffic rules",
+   "fi": "Liikenteen perussäännöt",
+   "icon": "rule",
+   "summaryEn": "Every road user must obey the rules and the instructions of the police, and avoid endangering or obstructing others. Drive on the right, keep a safe distance, and adapt your speed to the road, the weather and the traffic — even when you are below the posted limit. Headlights must be on whenever you drive, day and night, all year round. Holding a mobile phone while driving is prohibited; use a hands-free system. Seat belts are compulsory in every seat, and the driver is responsible for passengers under 15 wearing theirs.",
+   "summaryFi": "Jokaisen tienkäyttäjän on noudatettava sääntöjä sekä poliisin ohjeita eikä vaarannettava tai estettävä muita. Aja oikealla, pidä turvaväli ja sovita nopeus tiehen, keliin ja liikenteeseen — myös silloin, kun ajat rajoitusta hitaammin. Ajovalojen on oltava päällä aina ajettaessa, yöllä ja päivällä, ympäri vuoden. Matkapuhelimen pitäminen kädessä ajon aikana on kielletty; käytä handsfree-laitetta. Turvavyö on pakollinen kaikilla istumapaikoilla, ja kuljettaja vastaa alle 15-vuotiaiden vyön käytöstä.",
+   "sv": "Grundläggande trafikregler",
+   "summarySv": "Varje trafikant ska följa reglerna och polisens anvisningar och får inte äventyra eller hindra andra. Kör till höger, håll säkerhetsavstånd och anpassa farten till vägen, vädret och trafiken — även när du kör långsammare än begränsningen. Halvljuset ska vara tänt alltid när du kör, natt som dag, året runt. Att hålla mobiltelefonen i handen under körning är förbjudet; använd handsfree. Bilbälte är obligatoriskt på alla sittplatser, och föraren ansvarar för att passagerare under 15 år använder sitt."
+  },
+  {
+   "id": "priority",
+   "en": "Right of way and intersections",
+   "fi": "Väistämissäännöt ja risteykset",
+   "icon": "merge",
+   "summaryEn": "When no sign, signal or marking gives priority, you must give way to traffic coming from the right. A give way sign (B5) means you must let crossing traffic pass; a stop sign (B6) means you must always come to a full stop first. Turning traffic gives way to those going straight, and anyone entering a road from a yard, car park or petrol station gives way to all traffic on the road. In a roundabout you give way to vehicles already in the ring and signal right before leaving it. Trams have priority over other vehicles in most situations.",
+   "summaryFi": "Kun mikään merkki, valo tai tiemerkintä ei osoita etuajo-oikeutta, on väistettävä oikealta tulevaa. Väistämisvelvollisuus risteyksessä (B5) tarkoittaa risteävän liikenteen päästämistä ohi; pakollinen pysäyttäminen (B6) tarkoittaa aina täyttä pysähdystä ensin. Kääntyvä väistää suoraan ajavaa, ja pihasta, pysäköintialueelta tai huoltoasemalta tielle tuleva väistää kaikkea tien liikennettä. Liikenneympyrässä väistetään ympyrässä jo olevia ja poistuttaessa annetaan suuntamerkki oikealle. Raitiovaunulla on useimmissa tilanteissa etuajo-oikeus muihin ajoneuvoihin nähden.",
+   "sv": "Väjningsregler och korsningar",
+   "summarySv": "När inget märke, ingen signal och ingen markering anger förkörsrätt ska du väja för trafik som kommer från höger. Märket väjningsplikt i korsning (B5) betyder att du ska släppa fram den korsande trafiken; obligatoriskt att stanna (B6) betyder att du alltid först måste stanna helt. Den som svänger väjer för den som kör rakt fram, och den som kommer ut på vägen från en gård, parkeringsplats eller bensinstation väjer för all trafik på vägen. I en cirkulationsplats väjer du för fordon som redan kör i cirkulationen och ger tecken åt höger innan du lämnar den. Spårvagn har i de flesta situationer förkörsrätt framför andra fordon."
+  },
+  {
+   "id": "speed",
+   "en": "Speed limits",
+   "fi": "Nopeusrajoitukset",
+   "icon": "speed",
+   "summaryEn": "In a built-up area (taajama) the limit is 50 km/h unless a sign says otherwise. Outside built-up areas the general limit is 80 km/h, and a motorway is signed at 100 or 120 km/h. In a residential street area (pihakatu) the limit is 20 km/h. A speed limit sign applies until the next limit sign, the end-of-limit sign, or a change of area. The posted limit is a maximum, never a target: in rain, darkness, ice or heavy traffic the safe speed is lower.",
+   "summaryFi": "Taajamassa rajoitus on 50 km/h, ellei merkki muuta osoita. Taajaman ulkopuolella yleisrajoitus on 80 km/h, ja moottoritiellä rajoitus on merkitty 100 tai 120 km/h:iin. Pihakadulla suurin sallittu nopeus on 20 km/h. Nopeusrajoitusmerkki on voimassa seuraavaan rajoitusmerkkiin, rajoituksen päättymismerkkiin tai alueen vaihtumiseen asti. Merkitty rajoitus on yläraja, ei tavoite: sateella, pimeällä, jäisellä kelillä tai ruuhkassa turvallinen nopeus on matalampi.",
+   "sv": "Hastighetsbegränsningar",
+   "summarySv": "I tätort är begränsningen 50 km/h om inget märke anger annat. Utanför tätort är den allmänna begränsningen 80 km/h, och på motorväg är den skyltad till 100 eller 120 km/h. På en gårdsgata är högsta tillåtna hastighet 20 km/h. Ett hastighetsmärke gäller till nästa hastighetsmärke, till slutmärket eller tills området byts. Den skyltade begränsningen är ett tak, inte ett mål: i regn, mörker, halka eller tät trafik är den säkra farten lägre."
+  },
+  {
+   "id": "markings",
+   "en": "Road markings",
+   "fi": "Tiemerkinnät",
+   "icon": "lines",
+   "summaryEn": "Since the 2020 Road Traffic Act all longitudinal markings are white; yellow markings only remain on older roads during the transition. A solid centre line must not be crossed, a broken line may be crossed when it is safe, and where the two run side by side the line nearest to you decides. A stop line marks where you must stop, and zig-zag lines mark a place where stopping is prohibited. Arrows on the carriageway tell you which directions a lane may be used for.",
+   "summaryFi": "Vuoden 2020 tieliikennelain myötä kaikki pituussuuntaiset merkinnät ovat valkoisia; keltaisia merkintöjä on siirtymäajalla enää vanhoilla teillä. Yhtenäisen sulkuviivan yli ei saa ajaa, katkoviivan yli saa ajaa kun se on turvallista, ja kun viivat ovat rinnakkain, ratkaisee sinua lähinnä oleva viiva. Pysäytysviiva osoittaa pysähtymiskohdan, ja siksak-merkintä osoittaa paikan, jossa pysäyttäminen on kielletty. Ajoradan nuolet kertovat, mihin suuntiin kaistalta saa ajaa.",
+   "sv": "Vägmarkeringar",
+   "summarySv": "Sedan vägtrafiklagen 2020 är alla längsgående markeringar vita; gula markeringar finns under övergångstiden bara kvar på äldre vägar. En heldragen linje får inte köras över, en streckad linje får korsas när det är säkert, och när linjerna löper sida vid sida avgör den som ligger närmast dig. En stopplinje visar var du ska stanna, och en sicksacklinje markerar en plats där det är förbjudet att stanna. Pilar på körbanan anger vilka riktningar körfältet får användas till."
+  },
+  {
+   "id": "signals",
+   "en": "Traffic lights and control",
+   "fi": "Liikennevalot ja liikenteenohjaus",
+   "icon": "traffic",
+   "summaryEn": "Instructions from a police officer override traffic lights, lights override signs, and signs override the general rules and markings. A red light means stop before the stop line; a yellow light means stop unless you are already too close to stop safely. A green arrow lets you go in that direction only, and you must still give way to pedestrians and cyclists crossing the road you turn into. A flashing yellow light means the junction is uncontrolled and the normal give-way rules apply.",
+   "summaryFi": "Liikenteen ohjaajan eli poliisin ohje ohittaa liikennevalot, valot ohittavat liikennemerkit ja merkit ohittavat yleiset säännöt ja tiemerkinnät. Punainen valo tarkoittaa pysähtymistä ennen pysäytysviivaa; keltainen tarkoittaa pysähtymistä, ellet ole jo niin lähellä, ettet voi pysähtyä turvallisesti. Vihreä nuoli sallii ajon vain nuolen suuntaan, ja silloinkin on väistettävä kääntymissuunnan suojatietä ja pyörätietä ylittäviä. Vilkkuva keltainen tarkoittaa, ettei risteystä ohjata valoin, jolloin noudatetaan tavallisia väistämissääntöjä.",
+   "sv": "Trafiksignaler och trafikstyrning",
+   "summarySv": "En anvisning från en polis som styr trafiken går före trafiksignalerna, signalerna går före vägmärkena och märkena går före de allmänna reglerna och vägmarkeringarna. Rött ljus betyder stopp före stopplinjen; gult betyder stopp om du inte redan är så nära att du inte kan stanna säkert. En grön pil tillåter körning endast i pilens riktning, och även då ska du väja för gående och cyklister som korsar den väg du svänger in på. Blinkande gult betyder att korsningen inte styrs med signaler, varvid de vanliga väjningsreglerna gäller."
+  },
+  {
+   "id": "overtaking",
+   "en": "Overtaking and lane use",
+   "fi": "Ohittaminen ja kaistan käyttö",
+   "icon": "overtake",
+   "summaryEn": "Overtake on the left as a rule, and only when you can see far enough ahead and can return to your lane without forcing anyone to brake. Overtaking on the right is allowed when the vehicle ahead is signalling a left turn, when traffic moves in queues in several lanes, and on certain multi-lane roads. Never overtake just before or on a pedestrian crossing, at a level crossing, or where a no-overtaking sign or a solid line applies. When a lane ends, merge by the zipper principle — one vehicle from each lane in turn.",
+   "summaryFi": "Ohita pääsääntöisesti vasemmalta ja vain, kun näet riittävän kauas ja voit palata omalle kaistalle pakottamatta ketään jarruttamaan. Oikealta ohittaminen on sallittua, kun edellä ajava on antanut suuntamerkin vasemmalle, kun liikenne kulkee jonoina usealla kaistalla ja tietyillä monikaistaisilla teillä. Älä koskaan ohita juuri ennen suojatietä tai sen kohdalla, tasoristeyksessä tai siellä, missä ohituskieltomerkki tai sulkuviiva on voimassa. Kun kaista päättyy, liittyminen tehdään vuorotteluperiaatteella eli vuorotellen kummaltakin kaistalta.",
+   "sv": "Omkörning och körfältsanvändning",
+   "summarySv": "Kör om till vänster som huvudregel, och bara när du ser tillräckligt långt fram och kan återvända till ditt körfält utan att tvinga någon att bromsa. Omkörning till höger är tillåten när fordonet framför har gett tecken åt vänster, när trafiken går i köer i flera körfält och på vissa flerfiliga vägar. Kör aldrig om strax före eller på ett övergångsställe, vid en plankorsning eller där ett omkörningsförbud eller en heldragen linje gäller. När ett körfält upphör sker sammanflätningen växelvis — ett fordon från vardera körfältet i tur och ordning."
+  },
+  {
+   "id": "parking",
+   "en": "Stopping and parking",
+   "fi": "Pysäyttäminen ja pysäköinti",
+   "icon": "parking",
+   "summaryEn": "Stopping means a short halt to let someone in or out; parking is everything longer. You may not stop on a pedestrian or cycle crossing, or within five metres before one, and you may not park within five metres of a crossing carriageway. Never stop where you block others, on a narrow or blind spot, or in front of an entrance. Park on the right-hand side in the direction of traffic, and in a built-up area as close to the edge as you can. A parking disc must be set to the time you arrived where the sign requires one.",
+   "summaryFi": "Pysäyttäminen on lyhyt seisahdus matkustajan tai kuorman vuoksi; pysäköinti on kaikki sitä pidempi. Suojatiellä tai pyörätien jatkeella ja viittä metriä ennen niitä ei saa pysäyttää, eikä risteävän ajoradan reunasta viiden metrin sisälle saa pysäköidä. Älä koskaan pysäytä siten, että estät muita, kapeassa tai näkyvyydeltään huonossa paikassa tai portin eteen. Pysäköi ajosuunnassa oikealle puolelle ja taajamassa niin lähelle tien reunaa kuin mahdollista. Pysäköintikiekko asetetaan saapumisaikaan siellä, missä merkki sitä edellyttää.",
+   "sv": "Att stanna och parkera",
+   "summarySv": "Att stanna är ett kort uppehåll för att släppa av eller ta upp någon; parkering är allt som är längre. Du får inte stanna på ett övergångsställe eller en cykelöverfart, inte heller inom fem meter före dem, och du får inte parkera inom fem meter från en korsande körbana. Stanna aldrig så att du hindrar andra, på en smal eller skymd plats eller framför en infart. Parkera på höger sida i färdriktningen och i tätort så nära vägkanten som möjligt. Parkeringsskivan ställs på ankomsttiden där märket kräver det."
+  },
+  {
+   "id": "motorway",
+   "en": "Motorways and dual carriageways",
+   "fi": "Moottoritie ja moottoriliikennetie",
+   "icon": "motorway",
+   "summaryEn": "A motorway may only be used by motor vehicles that are capable of the required speed. Pedestrians, cyclists, mopeds and tractors are not allowed. Use the acceleration lane to reach the speed of the traffic before you merge, and give way to vehicles already on the carriageway. Keep to the right-hand lane except when overtaking. Reversing, U-turns and stopping are forbidden — if you must stop, pull onto the hard shoulder, switch on the hazard lights and leave the vehicle on the side away from traffic.",
+   "summaryFi": "Moottoritietä saa käyttää vain moottoriajoneuvoilla, jotka yltävät vaadittuun nopeuteen. Jalankulku, polkupyörät, mopot ja traktorit ovat kiellettyjä. Käytä kiihdytyskaistaa liikenteen nopeuteen pääsemiseksi ennen liittymistä ja väistä ajoradalla jo olevia. Aja oikeanpuoleisella kaistalla paitsi ohittaessasi. Peruuttaminen, U-käännös ja pysäyttäminen ovat kiellettyjä — jos joudut pysähtymään, siirry pientareelle, kytke hätävilkut ja poistu ajoneuvosta liikenteestä poispäin olevalta puolelta.",
+   "sv": "Motorvägar och motortrafikleder",
+   "summarySv": "En motorväg får bara användas av motorfordon som klarar den fart som krävs. Gående, cyklister, mopeder och traktorer är inte tillåtna. Använd accelerationsfältet för att nå trafikens hastighet innan du flätar in, och väj för fordon som redan är på körbanan. Håll dig i det högra körfältet utom vid omkörning. Att backa, göra U-sväng och stanna är förbjudet — måste du stanna, kör ut på vägrenen, tänd varningsblinkers och lämna fordonet på den sida som vetter bort från trafiken."
+  },
+  {
+   "id": "vulnerable",
+   "en": "Pedestrians and cyclists",
+   "fi": "Jalankulkijat ja pyöräilijät",
+   "icon": "pedestrian",
+   "summaryEn": "Approaching a pedestrian crossing you must drive so that you can stop, and you must give way to anyone on the crossing or clearly about to step onto it. You may not overtake another vehicle just before a crossing. When you turn at an intersection you give way to pedestrians and cyclists crossing the road you are turning into. Give cyclists room when passing, and remember that a child or an older person may step out without looking. In a residential street area pedestrians may walk anywhere and vehicles must give way to them.",
+   "summaryFi": "Suojatietä lähestyttäessä on ajettava niin, että voit pysähtyä, ja on väistettävä suojatiellä olevaa tai sille selvästi astumassa olevaa. Ohittaminen juuri ennen suojatietä on kielletty. Risteyksessä kääntyessäsi väistät kääntymissuunnan suojatietä ja pyörätien jatketta ylittäviä. Anna pyöräilijälle tilaa ohittaessasi ja muista, että lapsi tai iäkäs voi astua ajoradalle katsomatta. Pihakadulla jalankulkija saa kulkea kaikkialla ja ajoneuvon on väistettävä häntä.",
+   "sv": "Gående och cyklister",
+   "summarySv": "När du närmar dig ett övergångsställe ska du köra så att du hinner stanna, och du ska väja för den som är på övergångsstället eller tydligt är på väg ut på det. Du får inte köra om ett annat fordon strax före ett övergångsställe. När du svänger i en korsning väjer du för gående och cyklister som korsar den väg du svänger in på. Ge cyklisten utrymme när du kör om, och kom ihåg att ett barn eller en äldre person kan kliva ut utan att titta. På en gårdsgata får gående gå överallt och fordon ska väja för dem."
+  },
+  {
+   "id": "winter",
+   "en": "Winter driving and conditions",
+   "fi": "Talviajo ja keliolosuhteet",
+   "icon": "winter",
+   "summaryEn": "Winter tyres are required from November to March whenever the weather or the road demands them. Studded tyres are allowed from the start of November to the end of March, and outside that period when conditions require. On a slippery road brake gently and early, and stretch your following distance to at least three seconds. Black ice is most likely on bridges, in shaded spots and around dawn. Clear all snow and ice from the windows, lights and roof before you drive — a slab of snow leaving the roof is a hazard to everyone behind you.",
+   "summaryFi": "Talvirenkaita on käytettävä marraskuusta maaliskuuhun aina, kun sää tai tien kunto sitä edellyttää. Nastarenkaita saa käyttää marraskuun alusta maaliskuun loppuun ja tuon ajan ulkopuolella silloin, kun keli sitä vaatii. Liukkaalla jarruta pehmeästi ja ajoissa ja kasvata turvaväli vähintään kolmeen sekuntiin. Mustaa jäätä on todennäköisimmin silloilla, varjoisissa kohdissa ja aamuyön tunteina. Puhdista lumi ja jää ikkunoista, valoista ja katolta ennen ajoon lähtöä — katolta irtoava lumilautta vaarantaa kaikki takanasi.",
+   "sv": "Vinterkörning och väglag",
+   "summarySv": "Vinterdäck krävs från november till mars när vädret eller väglaget kräver det. Dubbdäck är tillåtna från början av november till slutet av mars, och utanför den perioden när förhållandena kräver det. På halt underlag ska du bromsa mjukt och tidigt och sträcka ut avståndet till minst tre sekunder. Svarta isen bildas oftast på broar, i skuggiga partier och kring gryningen. Rensa bort all snö och is från rutor, lyktor och tak innan du kör — ett snöblock som lossnar från taket är en fara för alla bakom dig."
+  },
+  {
+   "id": "fitness",
+   "en": "Driver fitness",
+   "fi": "Kuljettajan kunto",
+   "icon": "fitness",
+   "summaryEn": "The legal blood alcohol limit is 0.5 per mille; from 1.2 per mille the offence is aggravated drink-driving. Alcohol leaves the body slowly, so you can still be over the limit the morning after — coffee, a shower or fresh air do nothing to speed it up. Tiredness impairs you much like alcohol: the only real remedy is to stop and sleep. Many prescription and over-the-counter medicines affect driving; check the warning label. Illness, strong emotion and stress also belong here — if you are not fit to drive, do not drive.",
+   "summaryFi": "Rattijuopumuksen raja on 0,5 promillea; 1,2 promillesta ylöspäin kyseessä on törkeä rattijuopumus. Alkoholi poistuu elimistöstä hitaasti, joten raja voi ylittyä vielä seuraavana aamuna — kahvi, suihku tai raitis ilma eivät nopeuta poistumista. Väsymys heikentää ajokykyä samaan tapaan kuin alkoholi: ainoa oikea keino on pysähtyä ja nukkua. Monet resepti- ja käsikauppalääkkeet vaikuttavat ajokykyyn; tarkista varoitustarra. Myös sairaus, voimakkaat tunteet ja stressi kuuluvat tähän — jos et ole ajokunnossa, älä aja.",
+   "sv": "Förarens kondition",
+   "summarySv": "Promillegränsen för rattfylleri är 0,5 promille; från 1,2 promille är brottet grovt rattfylleri. Alkohol lämnar kroppen långsamt, så du kan fortfarande vara över gränsen morgonen efter — kaffe, dusch eller frisk luft påskyndar ingenting. Trötthet försämrar körförmågan ungefär som alkohol: det enda som verkligen hjälper är att stanna och sova. Många recept- och receptfria läkemedel påverkar körförmågan; kontrollera varningstriangeln på förpackningen. Också sjukdom, starka känslor och stress hör hit — är du inte i skick att köra, låt bli."
+  },
+  {
+   "id": "vehicle",
+   "en": "Vehicle condition and equipment",
+   "fi": "Ajoneuvon kunto ja varusteet",
+   "icon": "vehicle",
+   "summaryEn": "The driver is responsible for the vehicle being roadworthy every time it is used, not only at the annual inspection. Tyres, brakes, lights, mirrors, wipers and washer fluid all have to work. A car must carry a warning triangle, and a high-visibility vest is required when you step onto the road outside a built-up area. The load must be secured so that nothing can move or fall, and it must not obscure the lights or the registration plate. Overloading the vehicle or the roof rack changes how the car brakes and steers.",
+   "summaryFi": "Kuljettaja vastaa ajoneuvon liikennekelpoisuudesta joka kerta ajoon lähtiessään, ei vain vuosikatsastuksessa. Renkaiden, jarrujen, valojen, peilien, pyyhkijöiden ja pesunesteen on toimittava. Autossa on oltava varoituskolmio, ja heijastinliivi vaaditaan, kun poistut ajoradalle taajaman ulkopuolella. Kuorma on sidottava niin, ettei mikään pääse liikkumaan tai putoamaan, eikä se saa peittää valoja tai rekisterikilpeä. Ylikuorma tai raskas kattoteline muuttaa auton jarrutus- ja ohjauskäyttäytymistä.",
+   "sv": "Fordonets skick och utrustning",
+   "summarySv": "Föraren ansvarar för att fordonet är trafikdugligt varje gång det används, inte bara vid den årliga besiktningen. Däck, bromsar, lyktor, speglar, torkare och spolarvätska måste fungera. En bil ska ha en varningstriangel, och en reflexväst krävs när du kliver ut på vägbanan utanför tätort. Lasten ska säkras så att inget kan röra sig eller falla av, och den får inte skymma lyktorna eller registreringsskylten. Överlast eller ett tungt takräcke ändrar hur bilen bromsar och styr."
+  },
+  {
+   "id": "accident",
+   "en": "Accidents and first aid",
+   "fi": "Onnettomuudet ja ensiapu",
+   "icon": "accident",
+   "summaryEn": "Anyone involved in an accident must stop and help; leaving the scene is a criminal offence. Secure the scene first — hazard lights, warning triangle, high-visibility vest — so that you do not become the next casualty. The emergency number is 112; say where you are and what has happened, and follow the instructions you are given. Do not move an injured person unless there is immediate danger, but do clear the airway and stop heavy bleeding. If someone is not breathing normally, start chest compressions.",
+   "summaryFi": "Onnettomuuteen osallisen on pysähdyttävä ja autettava; paikalta poistuminen on rikos. Turvaa ensin tapahtumapaikka — hätävilkut, varoituskolmio, heijastinliivi — jotta et itse joudu seuraavaksi uhriksi. Hätänumero on 112; kerro missä olet ja mitä on tapahtunut ja noudata saamiasi ohjeita. Älä siirrä loukkaantunutta, ellei ole välitöntä vaaraa, mutta avaa hengitystiet ja tyrehdytä runsas verenvuoto. Jos henkilö ei hengitä normaalisti, aloita paineluelvytys.",
+   "sv": "Olyckor och första hjälpen",
+   "summarySv": "Den som är inblandad i en olycka ska stanna och hjälpa till; att lämna platsen är ett brott. Säkra först olycksplatsen — varningsblinkers, varningstriangel, reflexväst — så att du inte själv blir nästa offer. Nödnumret är 112; berätta var du är och vad som har hänt och följ de anvisningar du får. Flytta inte en skadad person om det inte finns omedelbar fara, men öppna luftvägarna och stoppa kraftiga blödningar. Om någon inte andas normalt, påbörja hjärt-lungräddning."
+  },
+  {
+   "id": "eco",
+   "en": "Environment and economical driving",
+   "fi": "Ympäristö ja taloudellinen ajo",
+   "icon": "eco",
+   "summaryEn": "Smooth, anticipatory driving saves both fuel and brakes: read the traffic far ahead, release the accelerator early and let the engine slow the car. Shift up early and drive at low revs. Unnecessary idling is prohibited and wastes fuel; in cold weather use a block heater instead of warming the engine by running it. Correct tyre pressure, no unnecessary weight and no roof box you do not need all cut consumption noticeably. Higher speed raises fuel use and emissions sharply.",
+   "summaryFi": "Tasainen ja ennakoiva ajotapa säästää sekä polttoainetta että jarruja: lue liikennettä kauas eteen, irrota kaasu ajoissa ja anna moottorin hidastaa autoa. Vaihda suuremmalle vaihteelle ajoissa ja aja matalilla kierroksilla. Tarpeeton joutokäynti on kielletty ja kuluttaa polttoainetta; kylmällä käytä lohkolämmitintä moottorin käyttämisen sijaan. Oikeat rengaspaineet, turha paino pois ja tarpeeton kattolaatikko pois vähentävät kulutusta selvästi. Nopeuden kasvu nostaa kulutusta ja päästöjä jyrkästi.",
+   "sv": "Miljö och sparsam körning",
+   "summarySv": "Ett jämnt och förutseende körsätt sparar både bränsle och bromsar: läs trafiken långt fram, släpp gasen i tid och låt motorn bromsa bilen. Växla upp tidigt och kör på låga varv. Onödig tomgång är förbjuden och slösar bränsle; använd motorvärmare i kyla i stället för att låta motorn gå. Rätt däcktryck, ingen onödig vikt och ingen takbox du inte behöver minskar förbrukningen märkbart. Högre fart höjer bränsleförbrukningen och utsläppen kraftigt."
+  }
+ ]
+}

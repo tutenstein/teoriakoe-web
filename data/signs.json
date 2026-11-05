@@ -1,0 +1,3565 @@
+{
+ "version": 1,
+ "source": "Finnish Road Traffic Act 729/2018 and Väylävirasto's current Finnish road-sign albums",
+ "categories": [
+  {
+   "id": "A",
+   "fi": "Varoitusmerkit",
+   "en": "Warning signs",
+   "dfi": "Varoitusmerkki ilmaisee tienkohdan tai tieosuuden, jossa on liikennettä uhkaava vaara.",
+   "den": "A warning sign indicates a place or section of road where there is a traffic hazard.",
+   "sv": "Varningsmärken",
+   "dsv": "Ett varningsmärke anger en plats eller vägsträcka där det finns fara för trafiken."
+  },
+  {
+   "id": "B",
+   "fi": "Etuajo-oikeus- ja väistämismerkit",
+   "en": "Priority and give-way signs",
+   "dfi": "Etuajo-oikeus- ja väistämismerkit osoittavat, kenen on väistettävä.",
+   "den": "Priority and give-way signs indicate who has to give way.",
+   "sv": "Märken som anger förkörsrätt och väjningsplikt",
+   "dsv": "Märken som anger förkörsrätt och väjningsplikt visar vem som ska väja."
+  },
+  {
+   "id": "C",
+   "fi": "Kielto- ja rajoitusmerkit",
+   "en": "Prohibitory and restrictive signs",
+   "dfi": "Kielto- ja rajoitusmerkki kieltää tai rajoittaa tienkäyttäjän toimintaa.",
+   "den": "A prohibitory or restrictive sign prohibits or restricts the road user's actions.",
+   "sv": "Förbuds- och begränsningsmärken",
+   "dsv": "Ett förbuds- eller begränsningsmärke förbjuder eller begränsar trafikantens handlingar."
+  },
+  {
+   "id": "D",
+   "fi": "Määräysmerkit",
+   "en": "Mandatory signs",
+   "dfi": "Määräysmerkki velvoittaa tienkäyttäjän toimimaan merkin osoittamalla tavalla.",
+   "den": "A mandatory sign orders the road user to act as indicated by the sign.",
+   "sv": "Påbudsmärken",
+   "dsv": "Ett påbudsmärke ålägger trafikanten att handla på det sätt som märket anger."
+  },
+  {
+   "id": "E",
+   "fi": "Sääntömerkit",
+   "en": "Regulatory signs",
+   "dfi": "Sääntömerkki ilmaisee tienkäyttäjää koskevan säännön tai osoittaa paikan, jossa sääntöä sovelletaan.",
+   "den": "A regulatory sign gives a rule for road users or points out a place where the related traffic rule applies.",
+   "sv": "Regelmärken",
+   "dsv": "Ett regelmärke anger en regel för trafikanten eller visar en plats där regeln tillämpas."
+  },
+  {
+   "id": "F",
+   "fi": "Opastusmerkit",
+   "en": "Information signs",
+   "dfi": "Opastusmerkit ohjaavat tienkäyttäjää ja auttavat suunnistamisessa.",
+   "den": "Information signs instruct road users and help with navigation.",
+   "sv": "Informationsmärken",
+   "dsv": "Informationsmärken vägleder trafikanten och hjälper till med orienteringen."
+  },
+  {
+   "id": "G",
+   "fi": "Palvelukohteiden opastusmerkit",
+   "en": "Service signs",
+   "dfi": "Palvelukohteiden opastusmerkit osoittavat, mistä tienkäyttäjä löytää erilaisia palveluja.",
+   "den": "Service signs show the road user where to find various services.",
+   "sv": "Informationsmärken för serviceanläggningar",
+   "dsv": "Informationsmärken för serviceanläggningar visar var trafikanten hittar olika tjänster."
+  },
+  {
+   "id": "H",
+   "fi": "Lisäkilvet",
+   "en": "Additional panels",
+   "dfi": "Lisäkilpeä käytetään liikennemerkin alapuolella täsmentämään merkin tarkoitusta tai kohdetta.",
+   "den": "An additional panel is used below a road sign to clarify the purpose or object of the sign.",
+   "sv": "Tilläggskyltar",
+   "dsv": "En tilläggskylt används under ett vägmärke för att precisera märkets syfte eller föremål."
+  },
+  {
+   "id": "I",
+   "fi": "Muut liikenteenohjausmerkit",
+   "en": "Other traffic control signs",
+   "dfi": "Muut merkit ja laitteet ohjaavat liikennettä tai parantavat tien ja esteiden havaittavuutta.",
+   "den": "Other signs and devices control traffic or improve the visibility of the road and obstacles.",
+   "sv": "Övriga anordningar för trafikstyrning",
+   "dsv": "Övriga märken och anordningar styr trafiken eller förbättrar synligheten av vägen och hinder."
+  }
+ ],
+ "signs": [
+  {
+   "code": "A1.1",
+   "category": "A",
+   "nameEn": "Dangerous curve to right",
+   "nameFi": "Mutka",
+   "image": "assets/signs/A1.1.svg",
+   "descEn": "Warns of a sharp bend to the right. Slow down before the bend — braking inside a curve costs you grip.",
+   "descFi": "Varoittaa jyrkästä oikealle kaartuvasta mutkasta. Hidasta ennen mutkaa; kaarteessa jarruttaminen vie pitoa.",
+   "nameSv": "Högerkurva",
+   "descSv": "Varnar för en skarp högerkurva. Sänk farten före kurvan — att bromsa inne i kurvan kostar väggrepp."
+  },
+  {
+   "code": "A1.2",
+   "category": "A",
+   "nameEn": "Dangerous curve to left",
+   "nameFi": "Mutka",
+   "image": "assets/signs/A1.2.svg",
+   "descEn": "Warns of a sharp bend to the left. Slow down before the bend — braking inside a curve costs you grip.",
+   "descFi": "Varoittaa jyrkästä vasemmalle kaartuvasta mutkasta. Hidasta ennen mutkaa; kaarteessa jarruttaminen vie pitoa.",
+   "nameSv": "Vänsterkurva",
+   "descSv": "Varnar för en skarp vänsterkurva. Sänk farten före kurvan — att bromsa inne i kurvan kostar väggrepp."
+  },
+  {
+   "code": "A2.1",
+   "category": "A",
+   "nameEn": "Dangerous curves, first bend to right",
+   "nameFi": "Mutkia",
+   "image": "assets/signs/A2.1.svg",
+   "descEn": "Warns of two or more successive bends, the first one turning right.",
+   "descFi": "Varoittaa kahdesta tai useammasta peräkkäisestä mutkasta, joista ensimmäinen kaartuu oikealle.",
+   "nameSv": "Kurvor, den första till höger",
+   "descSv": "Varnar för två eller flera kurvor efter varandra, den första åt höger."
+  },
+  {
+   "code": "A2.2",
+   "category": "A",
+   "nameEn": "Dangerous curves, first bend to left",
+   "nameFi": "Mutkia",
+   "image": "assets/signs/A2.2.svg",
+   "descEn": "Warns of two or more successive bends, the first one turning left.",
+   "descFi": "Varoittaa kahdesta tai useammasta peräkkäisestä mutkasta, joista ensimmäinen kaartuu vasemmalle.",
+   "nameSv": "Kurvor, den första till vänster",
+   "descSv": "Varnar för två eller flera kurvor efter varandra, den första åt vänster."
+  },
+  {
+   "code": "A3.1",
+   "category": "A",
+   "nameEn": "Steep hill upwards",
+   "nameFi": "Jyrkkä mäki",
+   "image": "assets/signs/A3.1.svg",
+   "descEn": "Warns of a steep ascent. The figure on the sign gives the gradient as a percentage; select a lower gear in time.",
+   "descFi": "Varoittaa jyrkästä ylämäestä. Merkin luku kertoo kaltevuuden prosentteina; vaihda pienemmälle vaihteelle ajoissa.",
+   "nameSv": "Brant uppförsbacke",
+   "descSv": "Varnar för en brant uppförsbacke. Siffran på märket anger lutningen i procent; växla ner i tid."
+  },
+  {
+   "code": "A3.2",
+   "category": "A",
+   "nameEn": "Steep hill downwards",
+   "nameFi": "Jyrkkä mäki",
+   "image": "assets/signs/A3.2.svg",
+   "descEn": "Warns of a steep descent. Use engine braking so the brakes do not overheat.",
+   "descFi": "Varoittaa jyrkästä alamäestä. Käytä moottorijarrutusta, jotta jarrut eivät ylikuumene.",
+   "nameSv": "Brant utförsbacke",
+   "descSv": "Varnar för en brant utförsbacke. Använd motorbroms så att bromsarna inte överhettas."
+  },
+  {
+   "code": "A4",
+   "category": "A",
+   "nameEn": "Road narrows on both sides",
+   "nameFi": "Kapeneva tie",
+   "image": "assets/signs/A4.svg",
+   "descEn": "Warns that the carriageway narrows from both sides. Adjust your speed and road position early.",
+   "descFi": "Varoittaa ajoradan kapenemisesta molemmilta puolilta. Sovita nopeus ja ajolinja ajoissa.",
+   "nameSv": "Avsmalnande väg",
+   "descSv": "Varnar för att körbanan smalnar av på båda sidor. Anpassa fart och placering i god tid."
+  },
+  {
+   "code": "A5",
+   "category": "A",
+   "nameEn": "Two-way traffic",
+   "nameFi": "Kaksisuuntainen liikenne",
+   "image": "assets/signs/A5.svg",
+   "descEn": "Warns that a one-way section changes to two-way traffic. Expect oncoming vehicles.",
+   "descFi": "Varoittaa, että yksisuuntainen osuus muuttuu kaksisuuntaiseksi. Varaudu vastaantuleviin ajoneuvoihin.",
+   "nameSv": "Dubbelriktad trafik",
+   "descSv": "Varnar för att en enkelriktad sträcka övergår till dubbelriktad trafik. Räkna med mötande fordon."
+  },
+  {
+   "code": "A6",
+   "category": "A",
+   "nameEn": "Opening or swing bridge",
+   "nameFi": "Avattava silta",
+   "image": "assets/signs/A6.svg",
+   "descEn": "Warns of a bridge that opens for vessels. Be ready to stop when the signals or barriers activate.",
+   "descFi": "Varoittaa vesiliikenteelle avattavasta sillasta. Varaudu pysähtymään, kun valot tai puomit toimivat.",
+   "nameSv": "Rörlig bro",
+   "descSv": "Varnar för en bro som öppnas för fartyg. Var beredd att stanna när signalerna eller bommarna aktiveras."
+  },
+  {
+   "code": "A7",
+   "category": "A",
+   "nameEn": "Quayside or ferry berth",
+   "nameFi": "Lautta, laituri tai ranta",
+   "image": "assets/signs/A7.svg",
+   "descEn": "Warns that the road ends at a quay, ferry berth or shore. Approach at low speed.",
+   "descFi": "Varoittaa, että tie päättyy laituriin, lauttarantaan tai vesistön rantaan. Lähesty hiljaisella nopeudella.",
+   "nameSv": "Färja, kaj eller strand",
+   "descSv": "Varnar för att vägen slutar vid en kaj, ett färjeläge eller en strand. Kör fram med låg fart."
+  },
+  {
+   "code": "A8",
+   "category": "A",
+   "nameEn": "Queuing traffic",
+   "nameFi": "Liikenneruuhka",
+   "image": "assets/signs/A8.svg",
+   "descEn": "Warns of a section where queues build up and vehicles may be standing still on the carriageway.",
+   "descFi": "Varoittaa tieosuudesta, jolle muodostuu jonoja ja jossa ajoneuvot voivat seisoa paikallaan ajoradalla.",
+   "nameSv": "Köbildning",
+   "descSv": "Varnar för en sträcka där köer bildas och fordon kan stå stilla på körbanan."
+  },
+  {
+   "code": "A9",
+   "category": "A",
+   "nameEn": "Uneven road ahead",
+   "nameFi": "Epätasainen tie",
+   "image": "assets/signs/A9.svg",
+   "descEn": "Warns of potholes, frost heaves or other damage to the road surface.",
+   "descFi": "Varoittaa kuopista, routavaurioista tai muista päällysteen vaurioista.",
+   "nameSv": "Ojämn väg",
+   "descSv": "Varnar för gropar, tjälskador eller andra skador på vägytan."
+  },
+  {
+   "code": "A10",
+   "category": "A",
+   "nameEn": "Speed bumps",
+   "nameFi": "Töyssyjä",
+   "image": "assets/signs/A10.svg",
+   "descEn": "Warns of built speed bumps or raised crossings. Slow down before the bump, not on it.",
+   "descFi": "Varoittaa rakennetuista töyssyistä tai korotetuista suojateistä. Hidasta ennen töyssyä, älä sen päällä.",
+   "nameSv": "Fartguppar",
+   "descSv": "Varnar för farthinder eller upphöjda övergångsställen. Sänk farten före hindret, inte på det."
+  },
+  {
+   "code": "A11",
+   "category": "A",
+   "nameEn": "Road works",
+   "nameFi": "Tietyö",
+   "image": "assets/signs/A11.svg",
+   "descEn": "Warns of a road works site. Watch for workers, machinery and changed lane arrangements.",
+   "descFi": "Varoittaa tietyömaasta. Varo työntekijöitä, työkoneita ja muuttuneita kaistajärjestelyjä.",
+   "nameSv": "Vägarbete",
+   "descSv": "Varnar för ett vägarbete. Se upp för arbetare, maskiner och ändrade körfältsarrangemang."
+  },
+  {
+   "code": "A12",
+   "category": "A",
+   "nameEn": "Loose chippings",
+   "nameFi": "Irtokiviä",
+   "image": "assets/signs/A12.svg",
+   "descEn": "Warns of loose chippings that can be thrown up by tyres. Increase your following distance and reduce speed.",
+   "descFi": "Varoittaa irtokivistä, joita renkaat voivat singota. Kasvata etäisyyttä edellä ajavaan ja hidasta.",
+   "nameSv": "Stenskott",
+   "descSv": "Varnar för lös grus som däcken kan slunga upp. Öka avståndet till framförvarande och sänk farten."
+  },
+  {
+   "code": "A13",
+   "category": "A",
+   "nameEn": "Slippery road",
+   "nameFi": "Liukas ajorata",
+   "image": "assets/signs/A13.svg",
+   "descEn": "Warns of a section that is often slippery — from ice, rain, mud or fallen leaves.",
+   "descFi": "Varoittaa usein liukkaasta tieosuudesta: jää, sade, muta tai lehdet voivat tehdä pinnasta petollisen.",
+   "nameSv": "Slirig körbana",
+   "descSv": "Varnar för en sträcka som ofta är hal — av is, regn, lera eller nedfallna löv."
+  },
+  {
+   "code": "A14",
+   "category": "A",
+   "nameEn": "Dangerous shoulders",
+   "nameFi": "Vaarallinen tienreuna",
+   "image": "assets/signs/A14.svg",
+   "descEn": "Warns of a soft or sharply dropping road edge. Keep clear of the shoulder.",
+   "descFi": "Varoittaa pehmeästä tai jyrkästi laskevasta tienreunasta. Pysy poissa pientareelta.",
+   "nameSv": "Farlig vägkant",
+   "descSv": "Varnar för en mjuk eller brant sluttande vägkant. Håll dig borta från vägrenen."
+  },
+  {
+   "code": "A15",
+   "category": "A",
+   "nameEn": "Pedestrian crossing",
+   "nameFi": "Suojatien ennakkovaroitus",
+   "image": "assets/signs/A15.svg",
+   "descEn": "Advance warning of a pedestrian crossing. Be ready to give way to people crossing.",
+   "descFi": "Suojatien ennakkovaroitus. Varaudu väistämään suojatietä ylittäviä jalankulkijoita.",
+   "nameSv": "Förhandsvarning för övergångsställe",
+   "descSv": "Förvarning om ett övergångsställe. Var beredd att väja för gående som korsar."
+  },
+  {
+   "code": "A16",
+   "category": "A",
+   "nameEn": "Pedestrians",
+   "nameFi": "Jalankulkijoita",
+   "image": "assets/signs/A16.svg",
+   "descEn": "Warns of a section where pedestrians often walk along or cross the carriageway.",
+   "descFi": "Varoittaa tieosuudesta, jolla jalankulkijat usein kulkevat ajoradalla tai ylittävät sen.",
+   "nameSv": "Gående",
+   "descSv": "Varnar för en sträcka där gående ofta går på eller korsar körbanan."
+  },
+  {
+   "code": "A17",
+   "category": "A",
+   "nameEn": "Children",
+   "nameFi": "Lapsia",
+   "image": "assets/signs/A17.svg",
+   "descEn": "Warns of a place where children are often on or beside the road, such as near a school or playground.",
+   "descFi": "Varoittaa paikasta, jossa lapsia liikkuu usein tiellä tai sen vieressä, kuten koulun tai leikkipaikan lähellä.",
+   "nameSv": "Barn",
+   "descSv": "Varnar för en plats där barn ofta rör sig på eller intill vägen, till exempel nära en skola eller lekplats."
+  },
+  {
+   "code": "A18",
+   "category": "A",
+   "nameEn": "Cyclists and moped riders on carriageway",
+   "nameFi": "Pyöräilijöitä",
+   "image": "assets/signs/A18.svg",
+   "descEn": "Warns of a place where cyclists or moped riders join or cross the carriageway.",
+   "descFi": "Varoittaa paikasta, jossa pyöräilijät tai mopoilijat tulevat ajoradalle tai ylittävät sen.",
+   "nameSv": "Cyklister",
+   "descSv": "Varnar för en plats där cyklister eller mopedister kommer ut på eller korsar körbanan."
+  },
+  {
+   "code": "A19",
+   "category": "A",
+   "nameEn": "Skiers crossing",
+   "nameFi": "Hiihtolatu",
+   "image": "assets/signs/A19.svg",
+   "descEn": "Warns of a ski track that crosses the road.",
+   "descFi": "Varoittaa tien ylittävästä hiihtoladusta.",
+   "nameSv": "Skidspår",
+   "descSv": "Varnar för ett skidspår som korsar vägen."
+  },
+  {
+   "code": "A20.1",
+   "category": "A",
+   "nameEn": "Animals (Elk)",
+   "nameFi": "Hirvi",
+   "image": "assets/signs/A20.1.svg",
+   "descEn": "Warns of a section where elk cross. Elk are most active at dusk and dawn, and one is rarely alone.",
+   "descFi": "Varoittaa tieosuudesta, jolla hirvet ylittävät tien. Hirvet liikkuvat eniten hämärissä, ja harvoin yksin.",
+   "nameSv": "Älgar",
+   "descSv": "Varnar för en sträcka där älg korsar vägen. Älgar rör sig mest i skymning och gryning, och sällan ensamma."
+  },
+  {
+   "code": "A20.2",
+   "category": "A",
+   "nameEn": "Animals (Reindeer)",
+   "nameFi": "Poro",
+   "image": "assets/signs/A20.2.svg",
+   "descEn": "Warns of a section where reindeer roam free. A whole herd may follow the first animal onto the road.",
+   "descFi": "Varoittaa tieosuudesta, jolla porot liikkuvat vapaana. Ensimmäisen eläimen perässä voi tulla koko tokka.",
+   "nameSv": "Renar",
+   "descSv": "Varnar för en sträcka där renar rör sig fritt. En hel hjord kan följa efter det första djuret."
+  },
+  {
+   "code": "A20.3",
+   "category": "A",
+   "nameEn": "Animals (Deer)",
+   "nameFi": "Kauriseläin",
+   "image": "assets/signs/A20.3.svg",
+   "descEn": "Warns of a section where deer cross the road.",
+   "descFi": "Varoittaa tieosuudesta, jolla kauriseläimet ylittävät tien.",
+   "nameSv": "Hjortdjur",
+   "descSv": "Varnar för en sträcka där hjortdjur korsar vägen."
+  },
+  {
+   "code": "A21",
+   "category": "A",
+   "nameEn": "Intersection, equal (rightside has the priority)",
+   "nameFi": "Tienristeys",
+   "image": "assets/signs/A21.svg",
+   "descEn": "Warns of an intersection where neither road has priority. Give way to traffic coming from the right.",
+   "descFi": "Varoittaa risteyksestä, jossa kummallakaan tiellä ei ole etuajo-oikeutta. Väistä oikealta tulevaa.",
+   "nameSv": "Vägkorsning (fordon skall väja för fordon som samtidigt närmar sig från höger)",
+   "descSv": "Varnar för en korsning där ingen av vägarna har förkörsrätt. Väj för trafik som kommer från höger."
+  },
+  {
+   "code": "A22.1",
+   "category": "A",
+   "nameEn": "Junction with a minor road",
+   "nameFi": "Sivutien risteys",
+   "image": "assets/signs/A22.1.svg",
+   "descEn": "Warns of a junction where a minor road joins from the direction shown. Traffic on the minor road must give way.",
+   "descFi": "Varoittaa risteyksestä, jossa sivutie liittyy merkin osoittamasta suunnasta. Sivutieltä tulevan on väistettävä.",
+   "nameSv": "Korsning med sidoväg",
+   "descSv": "Varnar för en korsning där en sidoväg ansluter från den riktning märket visar. Den som kommer från sidovägen ska väja."
+  },
+  {
+   "code": "A22.2",
+   "category": "A",
+   "nameEn": "Junction with a minor road",
+   "nameFi": "Sivutien risteys",
+   "image": "assets/signs/A22.2.svg",
+   "descEn": "Warns of a junction where a minor road joins from the direction shown. Traffic on the minor road must give way.",
+   "descFi": "Varoittaa risteyksestä, jossa sivutie liittyy merkin osoittamasta suunnasta. Sivutieltä tulevan on väistettävä.",
+   "nameSv": "Korsning med sidoväg",
+   "descSv": "Varnar för en korsning där en sidoväg ansluter från den riktning märket visar. Den som kommer från sidovägen ska väja."
+  },
+  {
+   "code": "A22.3",
+   "category": "A",
+   "nameEn": "Junction with a minor road",
+   "nameFi": "Sivutien risteys",
+   "image": "assets/signs/A22.3.svg",
+   "descEn": "Warns of a junction where a minor road joins from the direction shown. Traffic on the minor road must give way.",
+   "descFi": "Varoittaa risteyksestä, jossa sivutie liittyy merkin osoittamasta suunnasta. Sivutieltä tulevan on väistettävä.",
+   "nameSv": "Korsning med sidoväg",
+   "descSv": "Varnar för en korsning där en sidoväg ansluter från den riktning märket visar. Den som kommer från sidovägen ska väja."
+  },
+  {
+   "code": "A22.4",
+   "category": "A",
+   "nameEn": "Junction with a minor road",
+   "nameFi": "Sivutien risteys",
+   "image": "assets/signs/A22.4.svg",
+   "descEn": "Warns of a junction where minor roads join from both sides. Traffic on the minor roads must give way.",
+   "descFi": "Varoittaa risteyksestä, jossa sivutiet liittyvät molemmilta puolilta. Sivuteiltä tulevien on väistettävä.",
+   "nameSv": "Korsning med sidoväg",
+   "descSv": "Varnar för en korsning där sidovägar ansluter från båda hållen. De som kommer från sidovägarna ska väja."
+  },
+  {
+   "code": "A23",
+   "category": "A",
+   "nameEn": "Traffic signals",
+   "nameFi": "Liikennevalot",
+   "image": "assets/signs/A23.svg",
+   "descEn": "Warns of traffic signals ahead, typically where they would otherwise be seen too late.",
+   "descFi": "Varoittaa edessä olevista liikennevaloista, tyypillisesti paikassa, jossa ne havaittaisiin muuten liian myöhään.",
+   "nameSv": "Trafikljus",
+   "descSv": "Varnar för trafiksignaler längre fram, oftast där de annars skulle upptäckas för sent."
+  },
+  {
+   "code": "A24",
+   "category": "A",
+   "nameEn": "Roundabout warning",
+   "nameFi": "Liikenneympyrä",
+   "image": "assets/signs/A24.svg",
+   "descEn": "Warns of a roundabout ahead. Give way to vehicles already travelling in the ring.",
+   "descFi": "Varoittaa edessä olevasta liikenneympyrästä. Väistä ympyrässä jo kulkevia ajoneuvoja.",
+   "nameSv": "Cirkulationsplats",
+   "descSv": "Varnar för en cirkulationsplats längre fram. Väj för fordon som redan kör i cirkulationen."
+  },
+  {
+   "code": "A25",
+   "category": "A",
+   "nameEn": "Tramway",
+   "nameFi": "Raitiovaunu",
+   "image": "assets/signs/A25.svg",
+   "descEn": "Warns of a tramway that crosses the road or runs along it.",
+   "descFi": "Varoittaa raitiotiestä, joka ylittää tien tai kulkee sen suuntaisesti.",
+   "nameSv": "Spårvagn",
+   "descSv": "Varnar för en spårväg som korsar vägen eller går längs den."
+  },
+  {
+   "code": "A26",
+   "category": "A",
+   "nameEn": "Level crossing without gates",
+   "nameFi": "Rautatien tasoristeys ilman puomeja",
+   "image": "assets/signs/A26.svg",
+   "descEn": "Warns of a railway level crossing with no barriers. Slow down and check both directions before crossing.",
+   "descFi": "Varoittaa puomittomasta rautatien tasoristeyksestä. Hidasta ja katso molempiin suuntiin ennen ylitystä.",
+   "nameSv": "Plankorsning med järnväg, utan bommar",
+   "descSv": "Varnar för en plankorsning med järnväg utan bommar. Sänk farten och se åt båda hållen före passagen."
+  },
+  {
+   "code": "A27",
+   "category": "A",
+   "nameEn": "Level crossing with gates",
+   "nameFi": "Rautatien tasoristeys, jossa on puomit",
+   "image": "assets/signs/A27.svg",
+   "descEn": "Warns of a railway level crossing with barriers. Never drive past a barrier that is closing.",
+   "descFi": "Varoittaa puomillisesta rautatien tasoristeyksestä. Älä koskaan aja laskeutuvan puomin ohi.",
+   "nameSv": "Plankorsning med järnväg, med bommar",
+   "descSv": "Varnar för en plankorsning med järnväg med bommar. Kör aldrig förbi en bom som håller på att fällas."
+  },
+  {
+   "code": "A28.1",
+   "category": "A",
+   "nameEn": "Distance to level crossing",
+   "nameFi": "Rautatien tasoristeyksen lähestymismerkit",
+   "image": "assets/signs/A28.1.svg",
+   "descEn": "The first countdown marker before a level crossing, set furthest from the track.",
+   "descFi": "Ensimmäinen tasoristeyksen lähestymismerkki, sijoitettuna kauimmas radasta.",
+   "nameSv": "Avståndsmärke för plankorsning med järnväg",
+   "descSv": "Det första avståndsmärket före en plankorsning, placerat längst från spåret."
+  },
+  {
+   "code": "A28.2",
+   "category": "A",
+   "nameEn": "Distance to level crossing",
+   "nameFi": "Rautatien tasoristeyksen lähestymismerkki",
+   "image": "assets/signs/A28.2.svg",
+   "descEn": "The middle countdown marker before a level crossing.",
+   "descFi": "Keskimmäinen tasoristeyksen lähestymismerkki.",
+   "nameSv": "Avståndsmärke för plankorsning med järnväg",
+   "descSv": "Det mellersta avståndsmärket före en plankorsning."
+  },
+  {
+   "code": "A28.3",
+   "category": "A",
+   "nameEn": "Distance to level crossing",
+   "nameFi": "Rautatien tasoristeyksen lähestymismerkki",
+   "image": "assets/signs/A28.3.svg",
+   "descEn": "The last countdown marker before a level crossing, set closest to the track.",
+   "descFi": "Viimeinen tasoristeyksen lähestymismerkki, sijoitettuna lähimmäs rataa.",
+   "nameSv": "Avståndsmärke för plankorsning med järnväg",
+   "descSv": "Det sista avståndsmärket före en plankorsning, placerat närmast spåret."
+  },
+  {
+   "code": "A29.1",
+   "category": "A",
+   "nameEn": "Single track level crossing",
+   "nameFi": "Tasoristeys",
+   "image": "assets/signs/A29.1.svg",
+   "descEn": "Marks a level crossing with a single track, at the crossing itself.",
+   "descFi": "Osoittaa yksiraiteisen tasoristeyksen itse risteyskohdassa.",
+   "nameSv": "Plankorsning med enkelspårig järnväg",
+   "descSv": "Anger en plankorsning med ett spår, vid själva korsningen."
+  },
+  {
+   "code": "A29.2",
+   "category": "A",
+   "nameEn": "Multitrack level crossing",
+   "nameFi": "Tasoristeys",
+   "image": "assets/signs/A29.2.svg",
+   "descEn": "Marks a level crossing with two or more tracks. A second train may follow immediately behind the first.",
+   "descFi": "Osoittaa kaksi- tai useampiraiteisen tasoristeyksen. Ensimmäisen junan perässä voi tulla heti toinen.",
+   "nameSv": "Plankorsning med två- eller flerspårig järnväg",
+   "descSv": "Anger en plankorsning med två eller flera spår. Ett andra tåg kan komma direkt efter det första."
+  },
+  {
+   "code": "A30",
+   "category": "A",
+   "nameEn": "Falling rocks",
+   "nameFi": "Putoavia kiviä",
+   "image": "assets/signs/A30.svg",
+   "descEn": "Warns of rocks that may fall onto the road, or that already lie on the carriageway.",
+   "descFi": "Varoittaa kivistä, jotka voivat pudota tielle tai jotka ovat jo ajoradalla.",
+   "nameSv": "Stenras",
+   "descSv": "Varnar för stenar som kan falla ner på vägen eller som redan ligger på körbanan."
+  },
+  {
+   "code": "A31",
+   "category": "A",
+   "nameEn": "Low-flying aircraft",
+   "nameFi": "Matalalla lentäviä lentokoneita",
+   "image": "assets/signs/A31.svg",
+   "descEn": "Warns of a section near an airfield where aircraft pass low over the road.",
+   "descFi": "Varoittaa lentopaikan läheisestä tieosuudesta, jossa lentokoneet ylittävät tien matalalla.",
+   "nameSv": "Lågtflygande flygplan",
+   "descSv": "Varnar för en sträcka nära ett flygfält där flygplan passerar lågt över vägen."
+  },
+  {
+   "code": "A32",
+   "category": "A",
+   "nameEn": "Crosswind",
+   "nameFi": "Sivutuuli",
+   "image": "assets/signs/A32.svg",
+   "descEn": "Warns of strong side wind, typically on bridges and open ground. Hold the wheel firmly and expect gusts.",
+   "descFi": "Varoittaa voimakkaasta sivutuulesta, tyypillisesti silloilla ja aukeilla paikoilla. Pidä ohjauspyörästä tukevasti kiinni.",
+   "nameSv": "Sidvind",
+   "descSv": "Varnar för kraftig sidvind, typiskt på broar och öppna platser. Håll stadigt i ratten och räkna med byar."
+  },
+  {
+   "code": "A33",
+   "category": "A",
+   "nameEn": "Other dangers",
+   "nameFi": "Muu vaara",
+   "image": "assets/signs/A33.svg",
+   "descEn": "Warns of a hazard that no other warning sign covers. An additional panel states what the hazard is.",
+   "descFi": "Varoittaa vaarasta, jota mikään muu varoitusmerkki ei kata. Lisäkilpi kertoo vaaran laadun.",
+   "nameSv": "Annan fara",
+   "descSv": "Varnar för en fara som inget annat varningsmärke täcker. En tilläggskylt anger farans art."
+  },
+  {
+   "code": "B1",
+   "category": "B",
+   "nameEn": "Priority road",
+   "nameFi": "Etuajo-oikeutettu tie",
+   "image": "assets/signs/B1.svg",
+   "descEn": "You are on a priority road: traffic entering from side roads must give way to you. Valid until sign B2.",
+   "descFi": "Olet etuajo-oikeutetulla tiellä: sivuteiltä tulevien on väistettävä sinua. Voimassa merkkiin B2 asti.",
+   "nameSv": "Väg med förkörsrätt",
+   "descSv": "Du kör på en förkörsberättigad väg: trafik från sidovägar ska väja för dig. Gäller fram till märke B2."
+  },
+  {
+   "code": "B2",
+   "category": "B",
+   "nameEn": "End of priority road",
+   "nameFi": "Etuajo-oikeuden päättyminen",
+   "image": "assets/signs/B2.svg",
+   "descEn": "The priority road ends. From here the ordinary give-way rules apply again.",
+   "descFi": "Etuajo-oikeutettu tie päättyy. Tästä eteenpäin noudatetaan jälleen tavallisia väistämissääntöjä.",
+   "nameSv": "Förkörsrätt upphör",
+   "descSv": "Den förkörsberättigade vägen upphör. Härifrån gäller de vanliga väjningsreglerna igen."
+  },
+  {
+   "code": "B3",
+   "category": "B",
+   "nameEn": "Priority over oncoming vehicles",
+   "nameFi": "Etuajo-oikeus kohdattaessa",
+   "image": "assets/signs/B3.svg",
+   "descEn": "On the narrow section ahead you have priority over oncoming traffic.",
+   "descFi": "Edessä olevalla kapealla osuudella sinulla on etuajo-oikeus vastaantulevaan nähden.",
+   "nameSv": "Förkörsrätt vid möte",
+   "descSv": "På den smala sträckan framför har du förkörsrätt gentemot mötande trafik."
+  },
+  {
+   "code": "B4",
+   "category": "B",
+   "nameEn": "Priority for oncoming vehicles",
+   "nameFi": "Väistämisvelvollisuus kohdattaessa",
+   "image": "assets/signs/B4.svg",
+   "descEn": "On the narrow section ahead you must give way to oncoming traffic and wait if necessary.",
+   "descFi": "Edessä olevalla kapealla osuudella sinun on väistettävä vastaantulevaa ja tarvittaessa odotettava.",
+   "nameSv": "Väjningsplikt vid möte",
+   "descSv": "På den smala sträckan framför ska du väja för mötande trafik och vid behov vänta."
+  },
+  {
+   "code": "B5",
+   "category": "B",
+   "nameEn": "Give way",
+   "nameFi": "Väistämisvelvollisuus risteyksessä",
+   "image": "assets/signs/B5.svg",
+   "descEn": "Give way to traffic on the crossing road. You need not stop if the way is clear, but you must be able to.",
+   "descFi": "Väistä risteävää liikennettä. Pysähtyminen ei ole pakollista, jos tie on vapaa, mutta sinun on kyettävä siihen.",
+   "nameSv": "Väjningsplikt i korsning",
+   "descSv": "Väj för trafiken på den korsande vägen. Du behöver inte stanna om vägen är fri, men du måste kunna göra det."
+  },
+  {
+   "code": "B6",
+   "category": "B",
+   "nameEn": "Stop",
+   "nameFi": "Pakollinen pysäyttäminen",
+   "image": "assets/signs/B6.svg",
+   "descEn": "You must always come to a complete stop at the stop line, or before the intersection, and only then give way.",
+   "descFi": "Sinun on aina pysähdyttävä kokonaan pysäytysviivan kohdalle tai ennen risteystä ja vasta sitten väistettävä.",
+   "nameSv": "Obligatoriskt att stanna",
+   "descSv": "Du ska alltid stanna helt vid stopplinjen, eller före korsningen, och först därefter väja."
+  },
+  {
+   "code": "B7",
+   "category": "B",
+   "nameEn": "Cycle crossing",
+   "nameFi": "Väistämisvelvollisuus pyöräilijän tienylityspaikassa",
+   "image": "assets/signs/B7.svg",
+   "descEn": "Give way to cyclists using the cycle crossing ahead.",
+   "descFi": "Väistä edessä olevaa pyöräilijän tienylityspaikkaa käyttäviä pyöräilijöitä.",
+   "nameSv": "Väjningsplikt i cykelvägs korsning",
+   "descSv": "Väj för cyklister som använder cykelöverfarten framför."
+  },
+  {
+   "code": "C1",
+   "category": "C",
+   "nameEn": "Closed to all vehicles in both directions",
+   "nameFi": "Ajoneuvolla ajo kielletty",
+   "image": "assets/signs/C1.svg",
+   "descEn": "No vehicle may be driven past this sign in either direction. It does not apply to pedestrians.",
+   "descFi": "Merkin ohi ei saa ajaa millään ajoneuvolla kumpaankaan suuntaan. Kielto ei koske jalankulkua.",
+   "nameSv": "Fordonstrafik förbjuden",
+   "descSv": "Inget fordon får köras förbi märket i någon riktning. Förbudet gäller inte gående."
+  },
+  {
+   "code": "C2",
+   "category": "C",
+   "nameEn": "No power-driven vehicles",
+   "nameFi": "Moottorikäyttöisellä ajoneuvolla ajo kielletty",
+   "image": "assets/signs/C2.svg",
+   "descEn": "Driving past with any power-driven vehicle is prohibited; cycles and pedestrians may pass.",
+   "descFi": "Moottorikäyttöisellä ajoneuvolla ajo on kielletty; polkupyörällä ja jalan saa kulkea.",
+   "nameSv": "Trafik med motordrivet fordon förbjuden",
+   "descSv": "Körning med motordrivet fordon är förbjuden; cykel och gång är tillåtna."
+  },
+  {
+   "code": "C3",
+   "category": "C",
+   "nameEn": "No lorries",
+   "nameFi": "Kuorma- ja pakettiautolla ajo kielletty",
+   "image": "assets/signs/C3.svg",
+   "descEn": "Lorries and vans may not pass. Cars, buses and motorcycles are unaffected.",
+   "descFi": "Kuorma- ja pakettiautolla ajo on kielletty. Kielto ei koske henkilöautoja, linja-autoja eikä moottoripyöriä.",
+   "nameSv": "Last- och paketbilstrafik förbjuden",
+   "descSv": "Lastbil och paketbil får inte passera. Förbudet gäller inte personbilar, bussar eller motorcyklar."
+  },
+  {
+   "code": "C4",
+   "category": "C",
+   "nameEn": "No combinations of a vehicle and a trailer",
+   "nameFi": "Ajoneuvoyhdistelmällä ajo kielletty",
+   "image": "assets/signs/C4.svg",
+   "descEn": "A vehicle towing a trailer may not pass; the same vehicle without the trailer may.",
+   "descFi": "Perävaunua vetävällä ajoneuvolla ajo on kielletty; sama ajoneuvo ilman perävaunua saa ajaa.",
+   "nameSv": "Trafik med fordonskombination förbjuden",
+   "descSv": "Fordon med släp får inte passera; samma fordon utan släp får köra."
+  },
+  {
+   "code": "C5",
+   "category": "C",
+   "nameEn": "No tractors, construction vehicles etc",
+   "nameFi": "Traktorilla ajo kielletty",
+   "image": "assets/signs/C5.svg",
+   "descEn": "Tractors and construction machinery may not pass.",
+   "descFi": "Traktorilla ja työkoneella ajo on kielletty.",
+   "nameSv": "Körning med traktor förbjuden",
+   "descSv": "Traktor och arbetsmaskin får inte passera."
+  },
+  {
+   "code": "C6",
+   "category": "C",
+   "nameEn": "No motorcycles",
+   "nameFi": "Moottoripyörällä ajo kielletty",
+   "image": "assets/signs/C6.svg",
+   "descEn": "Motorcycles may not pass.",
+   "descFi": "Moottoripyörällä ajo on kielletty.",
+   "nameSv": "Körning med motorcykel förbjuden",
+   "descSv": "Motorcykel får inte passera."
+  },
+  {
+   "code": "C7",
+   "category": "C",
+   "nameEn": "No off-road vehicles",
+   "nameFi": "Moottorikelkalla ajo kielletty",
+   "image": "assets/signs/C7.svg",
+   "descEn": "Snowmobiles may not pass.",
+   "descFi": "Moottorikelkalla ajo on kielletty.",
+   "nameSv": "Körning med snöskoter förbjuden",
+   "descSv": "Snöskoter får inte passera."
+  },
+  {
+   "code": "C8",
+   "category": "C",
+   "nameEn": "No vehicles carrying dangerous goods",
+   "nameFi": "Vaarallisten aineiden kuljetus kielletty",
+   "image": "assets/signs/C8.svg",
+   "descEn": "Vehicles carrying dangerous goods may not pass. Common before tunnels and near water supplies.",
+   "descFi": "Vaarallisten aineiden kuljetus on kielletty. Yleinen ennen tunneleita ja vedenottamoiden lähellä.",
+   "nameSv": "Förbjudet att transportera farliga ämnen",
+   "descSv": "Transport av farligt gods är förbjuden. Vanligt före tunnlar och nära vattentäkter."
+  },
+  {
+   "code": "C9",
+   "category": "C",
+   "nameEn": "No buses",
+   "nameFi": "Linja-autolla ajo kielletty",
+   "image": "assets/signs/C9.svg",
+   "descEn": "Buses may not pass.",
+   "descFi": "Linja-autolla ajo on kielletty.",
+   "nameSv": "Busstrafik förbjuden",
+   "descSv": "Buss får inte passera."
+  },
+  {
+   "code": "C10",
+   "category": "C",
+   "nameEn": "No mopeds",
+   "nameFi": "Mopolla ajo kielletty",
+   "image": "assets/signs/C10.svg",
+   "descEn": "Mopeds may not pass.",
+   "descFi": "Mopolla ajo on kielletty.",
+   "nameSv": "Körning med moped förbjuden",
+   "descSv": "Moped får inte passera."
+  },
+  {
+   "code": "C11",
+   "category": "C",
+   "nameEn": "No cycles",
+   "nameFi": "Polkupyörällä ajo kielletty",
+   "image": "assets/signs/C11.svg",
+   "descEn": "Cycles may not pass.",
+   "descFi": "Polkupyörällä ajo on kielletty.",
+   "nameSv": "Cykelåkning förbjuden",
+   "descSv": "Cykel får inte passera."
+  },
+  {
+   "code": "C12",
+   "category": "C",
+   "nameEn": "No cycles or mopeds",
+   "nameFi": "Polkupyörällä ja mopolla ajo kielletty",
+   "image": "assets/signs/C12.svg",
+   "descEn": "Neither cycles nor mopeds may pass.",
+   "descFi": "Polkupyörällä eikä mopolla saa ajaa.",
+   "nameSv": "Cykelåkning och körning med moped förbjudna",
+   "descSv": "Varken cykel eller moped får passera."
+  },
+  {
+   "code": "C13",
+   "category": "C",
+   "nameEn": "No pedestrians",
+   "nameFi": "Jalankulku kielletty",
+   "image": "assets/signs/C13.svg",
+   "descEn": "Walking past the sign is prohibited, typically on a motorway or a bridge with no footway.",
+   "descFi": "Jalankulku merkin ohi on kielletty, tyypillisesti moottoritiellä tai sillalla ilman jalkakäytävää.",
+   "nameSv": "Gångtrafik förbjuden",
+   "descSv": "Gångtrafik förbi märket är förbjuden, typiskt på motorväg eller på en bro utan gångbana."
+  },
+  {
+   "code": "C14",
+   "category": "C",
+   "nameEn": "No pedestrians or cycles",
+   "nameFi": "Jalankulku ja polkupyörällä ajo kielletty",
+   "image": "assets/signs/C14.svg",
+   "descEn": "Neither pedestrians nor cyclists may pass.",
+   "descFi": "Jalankulku ja polkupyörällä ajo on kielletty.",
+   "nameSv": "Gångtrafik och cykelåkning förbjudna",
+   "descSv": "Varken gående eller cyklister får passera."
+  },
+  {
+   "code": "C15",
+   "category": "C",
+   "nameEn": "No pedestrians, cycles or mopeds",
+   "nameFi": "Jalankulku ja polkupyörällä ja mopolla ajo kielletty",
+   "image": "assets/signs/C15.svg",
+   "descEn": "Pedestrians, cyclists and moped riders may not pass.",
+   "descFi": "Jalankulku sekä polkupyörällä ja mopolla ajo on kielletty.",
+   "nameSv": "Gångtrafik, cykelåkning och körning med moped förbjudna",
+   "descSv": "Gående, cyklister och mopedister får inte passera."
+  },
+  {
+   "code": "C16",
+   "category": "C",
+   "nameEn": "No equestrians",
+   "nameFi": "Ratsastus kielletty",
+   "image": "assets/signs/C16.svg",
+   "descEn": "Riding a horse past the sign is prohibited.",
+   "descFi": "Ratsastus merkin ohi on kielletty.",
+   "nameSv": "Ridning förbjuden",
+   "descSv": "Ridning förbi märket är förbjuden."
+  },
+  {
+   "code": "C17",
+   "category": "C",
+   "nameEn": "No entry",
+   "nameFi": "Kielletty ajosuunta",
+   "image": "assets/signs/C17.svg",
+   "descEn": "You may not drive in this direction — the road is one-way the other way. Look for the correct entrance.",
+   "descFi": "Tähän suuntaan ei saa ajaa — tie on yksisuuntainen vastakkaiseen suuntaan. Etsi oikea ajoreitti.",
+   "nameSv": "Förbjuden färdriktning",
+   "descSv": "Du får inte köra i denna riktning — vägen är enkelriktad åt andra hållet. Sök rätt infart."
+  },
+  {
+   "code": "C18",
+   "category": "C",
+   "nameEn": "No left turn",
+   "nameFi": "Vasemmalle kääntyminen kielletty",
+   "image": "assets/signs/C18.svg",
+   "descEn": "Turning left at the next intersection is prohibited. A U-turn is also prohibited.",
+   "descFi": "Vasemmalle kääntyminen seuraavassa risteyksessä on kielletty. Myös U-käännös on kielletty.",
+   "nameSv": "Vänstersväng förbjuden",
+   "descSv": "Vänstersväng i nästa korsning är förbjuden. Även U-sväng är förbjuden."
+  },
+  {
+   "code": "C19",
+   "category": "C",
+   "nameEn": "No right turn",
+   "nameFi": "Oikealle kääntyminen kielletty",
+   "image": "assets/signs/C19.svg",
+   "descEn": "Turning right at the next intersection is prohibited.",
+   "descFi": "Oikealle kääntyminen seuraavassa risteyksessä on kielletty.",
+   "nameSv": "Högersväng förbjuden",
+   "descSv": "Högersväng i nästa korsning är förbjuden."
+  },
+  {
+   "code": "C20",
+   "category": "C",
+   "nameEn": "No U-turn",
+   "nameFi": "U-käännös kielletty",
+   "image": "assets/signs/C20.svg",
+   "descEn": "Turning the vehicle around is prohibited from the sign to the next intersection.",
+   "descFi": "Ajoneuvon kääntäminen on kielletty merkistä seuraavaan risteykseen asti.",
+   "nameSv": "U-sväng förbjuden",
+   "descSv": "Att vända fordonet är förbjudet från märket fram till nästa korsning."
+  },
+  {
+   "code": "C21",
+   "category": "C",
+   "nameEn": "No vehicles having an overall width exceeding [...] meters",
+   "nameFi": "Ajoneuvon suurin sallittu leveys",
+   "image": "assets/signs/C21.svg",
+   "descEn": "Vehicles wider than the figure shown may not pass — measured including the load.",
+   "descFi": "Merkissä ilmoitettua leveämmällä ajoneuvolla ei saa ajaa — mitta sisältää kuorman.",
+   "nameSv": "Fordons största tillåtna bredd",
+   "descSv": "Fordon bredare än angivet mått får inte passera — måttet inkluderar lasten."
+  },
+  {
+   "code": "C22",
+   "category": "C",
+   "nameEn": "No vehicles having an overall height exceeding [...] meters",
+   "nameFi": "Ajoneuvon suurin sallittu korkeus",
+   "image": "assets/signs/C22.svg",
+   "descEn": "Vehicles taller than the figure shown may not pass. Check the height of your load and roof rack.",
+   "descFi": "Merkissä ilmoitettua korkeammalla ajoneuvolla ei saa ajaa. Tarkista kuorman ja kattotelineen korkeus.",
+   "nameSv": "Fordons största tillåtna höjd",
+   "descSv": "Fordon högre än angivet mått får inte passera. Kontrollera lastens och takräckets höjd."
+  },
+  {
+   "code": "C23",
+   "category": "C",
+   "nameEn": "No vehicles or combination of vehicles exceeding [...] meters",
+   "nameFi": "Ajoneuvon tai ajoneuvoyhdistelmän suurin sallittu pituus",
+   "image": "assets/signs/C23.svg",
+   "descEn": "Vehicles or combinations longer than the figure shown may not pass.",
+   "descFi": "Merkissä ilmoitettua pidemmällä ajoneuvolla tai ajoneuvoyhdistelmällä ei saa ajaa.",
+   "nameSv": "Fordons eller fordonskombinationers största tillåtna längd",
+   "descSv": "Fordon eller fordonskombinationer längre än angivet mått får inte passera."
+  },
+  {
+   "code": "C24",
+   "category": "C",
+   "nameEn": "No vehicles exceeding [...] tonnes laden weight",
+   "nameFi": "Ajoneuvon suurin sallittu massa",
+   "image": "assets/signs/C24.svg",
+   "descEn": "Vehicles whose actual laden weight exceeds the figure shown may not pass.",
+   "descFi": "Ajoneuvolla, jonka todellinen massa ylittää merkissä ilmoitetun, ei saa ajaa.",
+   "nameSv": "Fordons största tillåtna massa",
+   "descSv": "Fordon vars verkliga massa överstiger angivet värde får inte passera."
+  },
+  {
+   "code": "C25",
+   "category": "C",
+   "nameEn": "No vehicles or combination of vehicles exceeding [...] tonnes laden weight or bearing capacity class",
+   "nameFi": "Ajoneuvoyhdistelmän suurin sallittu massa",
+   "image": "assets/signs/C25.svg",
+   "descEn": "Combinations whose actual laden weight exceeds the figure shown may not pass.",
+   "descFi": "Ajoneuvoyhdistelmällä, jonka todellinen massa ylittää merkissä ilmoitetun, ei saa ajaa.",
+   "nameSv": "Fordonskombinationers största tillåtna massa",
+   "descSv": "Fordonskombinationer vars verkliga massa överstiger angivet värde får inte passera."
+  },
+  {
+   "code": "C26",
+   "category": "C",
+   "nameEn": "No vehicles having a weight exceeding [...] tonnes on one axle",
+   "nameFi": "Ajoneuvon suurin sallittu akselille kohdistuva massa",
+   "image": "assets/signs/C26.svg",
+   "descEn": "The weight on any single axle may not exceed the figure shown. Common on weak bridges.",
+   "descFi": "Yhdelle akselille kohdistuva massa ei saa ylittää merkissä ilmoitettua. Yleinen heikoilla silloilla.",
+   "nameSv": "Fordons största tillåtna massa på axel",
+   "descSv": "Massan på en enskild axel får inte överstiga angivet värde. Vanligt på svaga broar."
+  },
+  {
+   "code": "C27",
+   "category": "C",
+   "nameEn": "No vehicles having a weight exceeding [...] tonnes on a tandem axle",
+   "nameFi": "Ajoneuvon suurin sallittu telille kohdistuva massa",
+   "image": "assets/signs/C27.svg",
+   "descEn": "The weight on a bogie may not exceed the figure shown.",
+   "descFi": "Telille kohdistuva massa ei saa ylittää merkissä ilmoitettua.",
+   "nameSv": "Fordons största tillåtna massa på boggi",
+   "descSv": "Massan på en boggi får inte överstiga angivet värde."
+  },
+  {
+   "code": "C28",
+   "category": "C",
+   "nameEn": "No overtaking",
+   "nameFi": "Ohituskielto",
+   "image": "assets/signs/C28.svg",
+   "descEn": "Overtaking a motor vehicle is prohibited until the end sign or the next intersection.",
+   "descFi": "Moottorikäyttöisen ajoneuvon ohittaminen on kielletty päättymismerkkiin tai seuraavaan risteykseen asti.",
+   "nameSv": "Omkörningsförbud",
+   "descSv": "Omkörning av motordrivet fordon är förbjuden fram till slutmärket eller nästa korsning."
+  },
+  {
+   "code": "C29",
+   "category": "C",
+   "nameEn": "End of overtaking restriction",
+   "nameFi": "Ohituskielto päättyy",
+   "image": "assets/signs/C29.svg",
+   "descEn": "The no-overtaking restriction ends here.",
+   "descFi": "Ohituskielto päättyy tähän.",
+   "nameSv": "Omkörningsförbud upphör",
+   "descSv": "Omkörningsförbudet upphör här."
+  },
+  {
+   "code": "C30",
+   "category": "C",
+   "nameEn": "No overtaking by lorries",
+   "nameFi": "Ohituskielto kuorma-autolla",
+   "image": "assets/signs/C30.svg",
+   "descEn": "Lorries may not overtake other motor vehicles on this stretch.",
+   "descFi": "Kuorma-auto ei saa ohittaa muita moottorikäyttöisiä ajoneuvoja tällä osuudella.",
+   "nameSv": "Omkörning med lastbil förbjuden",
+   "descSv": "Lastbil får inte köra om andra motordrivna fordon på denna sträcka."
+  },
+  {
+   "code": "C31",
+   "category": "C",
+   "nameEn": "End of overtaking by lorries restriction",
+   "nameFi": "Ohituskielto kuorma-autolla päättyy",
+   "image": "assets/signs/C31.svg",
+   "descEn": "The overtaking restriction for lorries ends here.",
+   "descFi": "Kuorma-autoja koskeva ohituskielto päättyy tähän.",
+   "nameSv": "Omkörningsförbud för lastbil upphör",
+   "descSv": "Omkörningsförbudet för lastbilar upphör här."
+  },
+  {
+   "code": "C32",
+   "category": "C",
+   "nameEn": "Speed limit",
+   "nameFi": "Nopeusrajoitus",
+   "image": "assets/signs/C32.svg",
+   "descEn": "The highest permitted speed in kilometres per hour, valid until the next limit sign or a change of area.",
+   "descFi": "Suurin sallittu nopeus kilometreinä tunnissa, voimassa seuraavaan rajoitusmerkkiin tai alueen vaihtumiseen asti.",
+   "nameSv": "Hastighetsbegränsning",
+   "descSv": "Högsta tillåtna hastighet i kilometer i timmen, gäller till nästa hastighetsmärke eller tills området byts."
+  },
+  {
+   "code": "C33",
+   "category": "C",
+   "nameEn": "End of speed limit",
+   "nameFi": "Nopeusrajoitus päättyy",
+   "image": "assets/signs/C33.svg",
+   "descEn": "The posted speed limit ends and the general limit for the road applies again.",
+   "descFi": "Merkitty nopeusrajoitus päättyy ja tien yleisrajoitus astuu jälleen voimaan.",
+   "nameSv": "Hastighetsbegränsning upphör",
+   "descSv": "Den angivna hastighetsbegränsningen upphör och vägens allmänna begränsning gäller igen."
+  },
+  {
+   "code": "C34",
+   "category": "C",
+   "nameEn": "Speed limit zone",
+   "nameFi": "Nopeusrajoitusalue",
+   "image": "assets/signs/C34.svg",
+   "descEn": "A speed limit that applies to a whole area, not just one road, until the end-of-zone sign.",
+   "descFi": "Nopeusrajoitus, joka koskee koko aluetta eikä vain yhtä tietä, alueen päättymismerkkiin asti.",
+   "nameSv": "Hastighetsbegränsningszon",
+   "descSv": "En hastighetsbegränsning som gäller ett helt område, inte bara en väg, fram till slutmärket."
+  },
+  {
+   "code": "C35",
+   "category": "C",
+   "nameEn": "End of speed limit zone",
+   "nameFi": "Nopeusrajoitusalue päättyy",
+   "image": "assets/signs/C35.svg",
+   "descEn": "The speed limit zone ends here.",
+   "descFi": "Nopeusrajoitusalue päättyy tähän.",
+   "nameSv": "Hastighetsbegränsningszon upphör",
+   "descSv": "Hastighetsbegränsningsområdet upphör här."
+  },
+  {
+   "code": "C36",
+   "category": "C",
+   "nameEn": "Prohibition or restriction applying to one or more traffic lanes",
+   "nameFi": "Ajokaistakohtainen kielto, rajoitus tai määräys",
+   "image": "assets/signs/C36.svg",
+   "descEn": "The prohibition or restriction shown applies only to the lane the sign is above.",
+   "descFi": "Merkin osoittama kielto tai rajoitus koskee vain sitä kaistaa, jonka yläpuolella merkki on.",
+   "nameSv": "Förbud, begränsningar eller påbud som gäller olika körfält",
+   "descSv": "Förbudet eller begränsningen gäller endast det körfält som märket står över."
+  },
+  {
+   "code": "C37",
+   "category": "C",
+   "nameEn": "No standing or parking",
+   "nameFi": "Pysäyttäminen kielletty",
+   "image": "assets/signs/C37.svg",
+   "descEn": "Stopping is prohibited — you may not even halt briefly to set down a passenger.",
+   "descFi": "Pysäyttäminen on kielletty — edes lyhyt seisahdus matkustajan jättämiseksi ei ole sallittu.",
+   "nameSv": "Förbjudet att stanna fordon",
+   "descSv": "Att stanna är förbjudet — inte ens ett kort stopp för att släppa av en passagerare är tillåtet."
+  },
+  {
+   "code": "C38",
+   "category": "C",
+   "nameEn": "No parking",
+   "nameFi": "Pysäköinti kielletty",
+   "image": "assets/signs/C38.svg",
+   "descEn": "Parking is prohibited, but a short stop to pick up or set down is still allowed.",
+   "descFi": "Pysäköinti on kielletty, mutta lyhyt pysäyttäminen matkustajan tai kuorman vuoksi on sallittu.",
+   "nameSv": "Parkering förbjuden",
+   "descSv": "Parkering är förbjuden, men ett kort stopp för av- och påstigning eller lastning är tillåtet."
+  },
+  {
+   "code": "C39",
+   "category": "C",
+   "nameEn": "No parking zone",
+   "nameFi": "Pysäköintikieltoalue",
+   "image": "assets/signs/C39.svg",
+   "descEn": "Parking is prohibited throughout the area, not just on this street.",
+   "descFi": "Pysäköinti on kielletty koko alueella, ei vain tällä kadulla.",
+   "nameSv": "Parkeringsförbudszon",
+   "descSv": "Parkering är förbjuden i hela området, inte bara på denna gata."
+  },
+  {
+   "code": "C40",
+   "category": "C",
+   "nameEn": "End of no parking zone",
+   "nameFi": "Pysäköintikieltoalue päättyy",
+   "image": "assets/signs/C40.svg",
+   "descEn": "The no-parking zone ends here.",
+   "descFi": "Pysäköintikieltoalue päättyy tähän.",
+   "nameSv": "Parkeringsförbudszon upphör",
+   "descSv": "Parkeringsförbudsområdet upphör här."
+  },
+  {
+   "code": "C41",
+   "category": "C",
+   "nameEn": "Taxi waiting zone",
+   "nameFi": "Taksiasema-alue",
+   "image": "assets/signs/C41.svg",
+   "descEn": "The area is reserved for taxis waiting for a fare; other vehicles may not park.",
+   "descFi": "Alue on varattu taksiasemaksi; muut ajoneuvot eivät saa pysäköidä.",
+   "nameSv": "Zon för taxistation",
+   "descSv": "Området är reserverat som taxistation; andra fordon får inte parkera."
+  },
+  {
+   "code": "C42",
+   "category": "C",
+   "nameEn": "Taxi stopping zone",
+   "nameFi": "Taksin pysäyttämispaikka",
+   "image": "assets/signs/C42.svg",
+   "descEn": "The place is reserved for taxis to stop; other vehicles may not stop there.",
+   "descFi": "Paikka on varattu taksin pysäyttämiseen; muut ajoneuvot eivät saa pysäyttää siihen.",
+   "nameSv": "Plats för taxibil att stanna",
+   "descSv": "Platsen är reserverad för taxi att stanna; andra fordon får inte stanna där."
+  },
+  {
+   "code": "C43",
+   "category": "C",
+   "nameEn": "Loading zone",
+   "nameFi": "Kuormauspaikka",
+   "image": "assets/signs/C43.svg",
+   "descEn": "The place is reserved for loading and unloading goods.",
+   "descFi": "Paikka on varattu kuorman lastaamiseen ja purkamiseen.",
+   "nameSv": "-1. Lastningsplats",
+   "descSv": "Platsen är reserverad för lastning och lossning av gods."
+  },
+  {
+   "code": "C44.1",
+   "category": "C",
+   "nameEn": "Alternative parking (prohibited on the odd days of month from 08:00 on that day until 08:00 on the next)",
+   "nameFi": "Vuoropysäköinti",
+   "image": "assets/signs/C44.1.svg",
+   "descEn": "Alternate-side parking: parking is prohibited on this side on odd-numbered dates, so the street can be cleared.",
+   "descFi": "Vuoropysäköinti: pysäköinti on tällä puolella kielletty parittomina päivinä, jotta katu voidaan puhdistaa.",
+   "nameSv": "Datumparkering (parkering förbjuden udda dagar)",
+   "descSv": "Växelvis parkering: parkering på denna sida är förbjuden udda datum, så att gatan kan städas och plogas."
+  },
+  {
+   "code": "C44.2",
+   "category": "C",
+   "nameEn": "Alternative parking (prohibited on the even days of month from 08:00 on that day until 08:00 on the next)",
+   "nameFi": "Vuoropysäköinti",
+   "image": "assets/signs/C44.2.svg",
+   "descEn": "Alternate-side parking: parking is prohibited on this side on even-numbered dates.",
+   "descFi": "Vuoropysäköinti: pysäköinti on tällä puolella kielletty parillisina päivinä.",
+   "nameSv": "Datumparkering (parkering förbjuden jämna dagar)",
+   "descSv": "Växelvis parkering: parkering på denna sida är förbjuden jämna datum."
+  },
+  {
+   "code": "C45",
+   "category": "C",
+   "nameEn": "Passing without stopping prohibited (customs control on Russian border)",
+   "nameFi": "Pakollinen pysäyttäminen tullitarkastusta varten",
+   "image": "assets/signs/C45.svg",
+   "descEn": "You must stop for customs control and may not pass without stopping.",
+   "descFi": "On pysähdyttävä tullitarkastusta varten eikä merkin ohi saa ajaa pysähtymättä.",
+   "nameSv": "Obligatoriskt att stanna för tullkontroll",
+   "descSv": "Du måste stanna för tullkontroll och får inte passera märket utan att stanna."
+  },
+  {
+   "code": "C46",
+   "category": "C",
+   "nameEn": "Passing without stopping prohibited (police control)",
+   "nameFi": "Pakollinen pysäyttäminen tarkastusta varten",
+   "image": "assets/signs/C46.svg",
+   "descEn": "You must stop for the check indicated and may not pass without stopping.",
+   "descFi": "On pysähdyttävä merkin osoittamaa tarkastusta varten eikä ohi saa ajaa pysähtymättä.",
+   "nameSv": "Obligatoriskt att stanna för kontroll",
+   "descSv": "Du måste stanna för den kontroll som märket anger och får inte passera utan att stanna."
+  },
+  {
+   "code": "C47",
+   "category": "C",
+   "nameEn": "Minimum distance between power driven vehicles",
+   "nameFi": "Moottorikäyttöisten ajoneuvojen vähimmäisetäisyys",
+   "image": "assets/signs/C47.svg",
+   "descEn": "Power-driven vehicles must keep at least the distance shown from the vehicle ahead.",
+   "descFi": "Moottorikäyttöisten ajoneuvojen on pidettävä vähintään merkissä ilmoitettu etäisyys edellä ajavaan.",
+   "nameSv": "Minimiavstånd mellan motordrivna fordon",
+   "descSv": "Motordrivna fordon ska hålla minst det angivna avståndet till framförvarande fordon."
+  },
+  {
+   "code": "C48",
+   "category": "C",
+   "nameEn": "Vehicles equipped with studded tyres prohibited",
+   "nameFi": "Nastarenkailla varustetulla moottorikäyttöisellä ajoneuvolla ajo kielletty",
+   "image": "assets/signs/C48.svg",
+   "descEn": "Driving with studded tyres is prohibited past this sign.",
+   "descFi": "Nastarenkailla varustetulla ajoneuvolla ajo on merkin ohi kielletty.",
+   "nameSv": "Trafik med motordrivet fordon med dubbdäck förbjuden",
+   "descSv": "Körning med dubbdäck är förbjuden förbi märket."
+  },
+  {
+   "code": "D1.1",
+   "category": "D",
+   "nameEn": "Direction to be followed (turn right only)",
+   "nameFi": "Pakollinen ajosuunta",
+   "image": "assets/signs/D1.1.svg",
+   "descEn": "You must drive in the direction the arrow shows: turn right. No other direction is allowed at this point.",
+   "descFi": "On ajettava nuolen osoittamaan suuntaan: käännyttävä oikealle. Muu ajosuunta ei ole tässä sallittu.",
+   "nameSv": "Påbjuden körriktning",
+   "descSv": "Du måste köra i den riktning pilen visar: svänga höger. Ingen annan körriktning är tillåten här."
+  },
+  {
+   "code": "D1.2",
+   "category": "D",
+   "nameEn": "Direction to be followed (turn left only)",
+   "nameFi": "Pakollinen ajosuunta",
+   "image": "assets/signs/D1.2.svg",
+   "descEn": "You must drive in the direction the arrow shows: turn left. No other direction is allowed at this point.",
+   "descFi": "On ajettava nuolen osoittamaan suuntaan: käännyttävä vasemmalle. Muu ajosuunta ei ole tässä sallittu.",
+   "nameSv": "Påbjuden körriktning",
+   "descSv": "Du måste köra i den riktning pilen visar: svänga vänster. Ingen annan körriktning är tillåten här."
+  },
+  {
+   "code": "D1.3",
+   "category": "D",
+   "nameEn": "Direction to be followed (straight ahead only)",
+   "nameFi": "Pakollinen ajosuunta",
+   "image": "assets/signs/D1.3.svg",
+   "descEn": "You must drive in the direction the arrow shows: continue straight ahead. No other direction is allowed at this point.",
+   "descFi": "On ajettava nuolen osoittamaan suuntaan: ajettava suoraan. Muu ajosuunta ei ole tässä sallittu.",
+   "nameSv": "Påbjuden körriktning",
+   "descSv": "Du måste köra i den riktning pilen visar: köra rakt fram. Ingen annan körriktning är tillåten här."
+  },
+  {
+   "code": "D1.4",
+   "category": "D",
+   "nameEn": "Direction to be followed (turn right ahead)",
+   "nameFi": "Pakollinen ajosuunta",
+   "image": "assets/signs/D1.4.svg",
+   "descEn": "You must drive in the direction the arrow shows: turn right at the junction ahead. No other direction is allowed at this point.",
+   "descFi": "On ajettava nuolen osoittamaan suuntaan: käännyttävä oikealle edessä olevassa liittymässä. Muu ajosuunta ei ole tässä sallittu.",
+   "nameSv": "Påbjuden körriktning",
+   "descSv": "Du måste köra i den riktning pilen visar: svänga höger i korsningen framför. Ingen annan körriktning är tillåten här."
+  },
+  {
+   "code": "D1.5",
+   "category": "D",
+   "nameEn": "Direction to be followed (turn left ahead)",
+   "nameFi": "Pakollinen ajosuunta",
+   "image": "assets/signs/D1.5.svg",
+   "descEn": "You must drive in the direction the arrow shows: turn left at the junction ahead. No other direction is allowed at this point.",
+   "descFi": "On ajettava nuolen osoittamaan suuntaan: käännyttävä vasemmalle edessä olevassa liittymässä. Muu ajosuunta ei ole tässä sallittu.",
+   "nameSv": "Påbjuden körriktning",
+   "descSv": "Du måste köra i den riktning pilen visar: svänga vänster i korsningen framför. Ingen annan körriktning är tillåten här."
+  },
+  {
+   "code": "D1.6",
+   "category": "D",
+   "nameEn": "Direction to be followed (turn right or continue straight ahead)",
+   "nameFi": "Pakollinen ajosuunta",
+   "image": "assets/signs/D1.6.svg",
+   "descEn": "You must drive in the direction the arrow shows: turn right or continue straight ahead. No other direction is allowed at this point.",
+   "descFi": "On ajettava nuolen osoittamaan suuntaan: käännyttävä oikealle tai ajettava suoraan. Muu ajosuunta ei ole tässä sallittu.",
+   "nameSv": "Påbjuden körriktning",
+   "descSv": "Du måste köra i den riktning pilen visar: svänga höger eller köra rakt fram. Ingen annan körriktning är tillåten här."
+  },
+  {
+   "code": "D1.7",
+   "category": "D",
+   "nameEn": "Direction to be followed (turn left or continue straight ahead)",
+   "nameFi": "Pakollinen ajosuunta",
+   "image": "assets/signs/D1.7.svg",
+   "descEn": "You must drive in the direction the arrow shows: turn left or continue straight ahead. No other direction is allowed at this point.",
+   "descFi": "On ajettava nuolen osoittamaan suuntaan: käännyttävä vasemmalle tai ajettava suoraan. Muu ajosuunta ei ole tässä sallittu.",
+   "nameSv": "Påbjuden körriktning",
+   "descSv": "Du måste köra i den riktning pilen visar: svänga vänster eller köra rakt fram. Ingen annan körriktning är tillåten här."
+  },
+  {
+   "code": "D1.8",
+   "category": "D",
+   "nameEn": "Direction to be followed (turn left or right)",
+   "nameFi": "Pakollinen ajosuunta",
+   "image": "assets/signs/D1.8.svg",
+   "descEn": "You must drive in the direction the arrow shows: turn left or right. No other direction is allowed at this point.",
+   "descFi": "On ajettava nuolen osoittamaan suuntaan: käännyttävä vasemmalle tai oikealle. Muu ajosuunta ei ole tässä sallittu.",
+   "nameSv": "Påbjuden körriktning",
+   "descSv": "Du måste köra i den riktning pilen visar: svänga vänster eller höger. Ingen annan körriktning är tillåten här."
+  },
+  {
+   "code": "D1.9",
+   "category": "D",
+   "nameEn": "Direction to be followed (proceed in any direction)",
+   "nameFi": "Pakollinen ajosuunta",
+   "image": "assets/signs/D1.9.svg",
+   "descEn": "You must drive in the direction the arrow shows: any of the directions shown. No other direction is allowed at this point.",
+   "descFi": "On ajettava nuolen osoittamaan suuntaan: jokin nuolien osoittamista suunnista. Muu ajosuunta ei ole tässä sallittu.",
+   "nameSv": "Påbjuden körriktning",
+   "descSv": "Du måste köra i den riktning pilen visar: någon av de riktningar pilarna visar. Ingen annan körriktning är tillåten här."
+  },
+  {
+   "code": "D2",
+   "category": "D",
+   "nameEn": "Compulsory roundabout",
+   "nameFi": "Pakollinen kiertosuunta",
+   "image": "assets/signs/D2.svg",
+   "descEn": "You must circulate the roundabout in the direction of the arrows. Give way to traffic already in the ring.",
+   "descFi": "Kiertoliittymä on kierrettävä nuolten suuntaan. Väistä ympyrässä jo olevia.",
+   "nameSv": "Påbjuden cirkulationsriktning",
+   "descSv": "Cirkulationsplatsen ska köras i pilarnas riktning. Väj för fordon som redan kör i cirkulationen."
+  },
+  {
+   "code": "D3.1",
+   "category": "D",
+   "nameEn": "Pass this side (right side)",
+   "nameFi": "Liikenteenjakaja",
+   "image": "assets/signs/D3.1.svg",
+   "descEn": "An obstacle divides the traffic; pass it on the right-hand side.",
+   "descFi": "Liikenteenjakaja jakaa liikenteen; ohita se oikealta puolelta.",
+   "nameSv": "Trafikdelare",
+   "descSv": "En refug delar trafiken; passera den på höger sida."
+  },
+  {
+   "code": "D3.2",
+   "category": "D",
+   "nameEn": "Pass this side (left side)",
+   "nameFi": "Liikenteenjakaja",
+   "image": "assets/signs/D3.2.svg",
+   "descEn": "An obstacle divides the traffic; pass it on the left-hand side.",
+   "descFi": "Liikenteenjakaja jakaa liikenteen; ohita se vasemmalta puolelta.",
+   "nameSv": "Trafikdelare",
+   "descSv": "En refug delar trafiken; passera den på vänster sida."
+  },
+  {
+   "code": "D3.3",
+   "category": "D",
+   "nameEn": "Pass either side",
+   "nameFi": "Liikenteenjakaja",
+   "image": "assets/signs/D3.3.svg",
+   "descEn": "An obstacle divides the traffic; you may pass it on either side.",
+   "descFi": "Liikenteenjakaja jakaa liikenteen; sen saa ohittaa kummalta puolelta tahansa.",
+   "nameSv": "Trafikdelare",
+   "descSv": "En refug delar trafiken; den får passeras på båda sidor."
+  },
+  {
+   "code": "D4",
+   "category": "D",
+   "nameEn": "Footpath",
+   "nameFi": "Jalkakäytävä",
+   "image": "assets/signs/D4.svg",
+   "descEn": "The way is reserved for pedestrians. Cycling and driving on it are not allowed.",
+   "descFi": "Väylä on varattu jalankulkijoille. Pyöräily ja ajoneuvolla ajo eivät ole sallittuja.",
+   "nameSv": "Gångbana",
+   "descSv": "Vägen är reserverad för gående. Cykling och fordonstrafik är inte tillåtna."
+  },
+  {
+   "code": "D5",
+   "category": "D",
+   "nameEn": "Cycleway",
+   "nameFi": "Pyörätie",
+   "image": "assets/signs/D5.svg",
+   "descEn": "The way is reserved for cyclists, who must use it. Mopeds may use it only if an additional panel allows.",
+   "descFi": "Väylä on varattu pyöräilijöille, joiden on käytettävä sitä. Mopolla saa ajaa vain, jos lisäkilpi sallii.",
+   "nameSv": "Cykelbana",
+   "descSv": "Vägen är reserverad för cyklister, som ska använda den. Moped får köra endast om en tilläggskylt tillåter det."
+  },
+  {
+   "code": "D6",
+   "category": "D",
+   "nameEn": "Compulsory track for pedestrians and cyclists",
+   "nameFi": "Yhdistetty pyörätie ja jalkakäytävä",
+   "image": "assets/signs/D6.svg",
+   "descEn": "A combined path for pedestrians and cyclists sharing the same surface. Cyclists must give room to those on foot.",
+   "descFi": "Yhdistetty pyörätie ja jalkakäytävä samalla pinnalla. Pyöräilijän on annettava tilaa jalankulkijoille.",
+   "nameSv": "Kombinerad cykel- och gångbana",
+   "descSv": "En kombinerad gång- och cykelbana på samma yta. Cyklisten ska ge plats åt gående."
+  },
+  {
+   "code": "D7.1",
+   "category": "D",
+   "nameEn": "Compulsory track for pedestrians and cyclists (dual track)",
+   "nameFi": "Pyörätie ja jalkakäytävä rinnakkain",
+   "image": "assets/signs/D7.1.svg",
+   "descEn": "A path where cycling and walking have separate sides; keep to the side the sign shows.",
+   "descFi": "Väylä, jolla pyöräily ja jalankulku on eroteltu omille puolilleen; pysy merkin osoittamalla puolella.",
+   "nameSv": "Cykelbana och gångbana som löper parallellt",
+   "descSv": "En bana där cykling och gång är åtskilda på var sin sida; håll dig på den sida märket visar."
+  },
+  {
+   "code": "D7.2",
+   "category": "D",
+   "nameEn": "Compulsory track for pedestrians and cyclists (dual track)",
+   "nameFi": "Pyörätie ja jalkakäytävä rinnakkain",
+   "image": "assets/signs/D7.2.svg",
+   "descEn": "A path where cycling and walking have separate sides; keep to the side the sign shows.",
+   "descFi": "Väylä, jolla pyöräily ja jalankulku on eroteltu omille puolilleen; pysy merkin osoittamalla puolella.",
+   "nameSv": "Cykelbana och gångbana som löper parallellt",
+   "descSv": "En bana där cykling och gång är åtskilda på var sin sida; håll dig på den sida märket visar."
+  },
+  {
+   "code": "D8",
+   "category": "D",
+   "nameEn": "Track for off-road vehicles",
+   "nameFi": "Moottorikelkkailureitti",
+   "image": "assets/signs/D8.svg",
+   "descEn": "The route is reserved for snowmobiles.",
+   "descFi": "Reitti on varattu moottorikelkoille.",
+   "nameSv": "Snöskoterled",
+   "descSv": "Leden är reserverad för snöskotrar."
+  },
+  {
+   "code": "D9",
+   "category": "D",
+   "nameEn": "Track for rider on horseback",
+   "nameFi": "Ratsastustie",
+   "image": "assets/signs/D9.svg",
+   "descEn": "The way is reserved for riders on horseback.",
+   "descFi": "Väylä on varattu ratsastukseen.",
+   "nameSv": "Ridväg",
+   "descSv": "Vägen är reserverad för ridning."
+  },
+  {
+   "code": "D10",
+   "category": "D",
+   "nameEn": "Minimum speed limit",
+   "nameFi": "Vähimmäisnopeus",
+   "image": "assets/signs/D10.svg",
+   "descEn": "You must drive at least at the speed shown, conditions permitting. If you cannot, use another route.",
+   "descFi": "On ajettava vähintään merkin osoittamaa nopeutta, mikäli olosuhteet sallivat. Jos et pysty, käytä toista reittiä.",
+   "nameSv": "Minimihastighet",
+   "descSv": "Du ska köra minst den hastighet märket anger, om förhållandena tillåter. Kan du inte det, använd en annan väg."
+  },
+  {
+   "code": "D11",
+   "category": "D",
+   "nameEn": "End of minimum speed limit",
+   "nameFi": "Vähimmäisnopeus päättyy",
+   "image": "assets/signs/D11.svg",
+   "descEn": "The minimum speed requirement ends here.",
+   "descFi": "Vähimmäisnopeusvaatimus päättyy tähän.",
+   "nameSv": "Minimihastighet upphör",
+   "descSv": "Kravet på minsta hastighet upphör här."
+  },
+  {
+   "code": "E1",
+   "category": "E",
+   "nameEn": "Pedestrian crossing",
+   "nameFi": "Suojatie",
+   "image": "assets/signs/E1.svg",
+   "descEn": "Marks a pedestrian crossing. Approach so that you can stop, and give way to anyone crossing or about to cross.",
+   "descFi": "Osoittaa suojatien. Lähesty niin, että voit pysähtyä, ja väistä ylittävää tai ylittämään aikovaa.",
+   "nameSv": "Övergångsställe",
+   "descSv": "Anger ett övergångsställe. Kör fram så att du kan stanna, och väj för den som korsar eller är på väg att korsa."
+  },
+  {
+   "code": "E2",
+   "category": "E",
+   "nameEn": "Parking",
+   "nameFi": "Pysäköintipaikka",
+   "image": "assets/signs/E2.svg",
+   "descEn": "Marks a place where parking is permitted. Additional panels may limit who may park and for how long.",
+   "descFi": "Osoittaa paikan, jossa pysäköinti on sallittu. Lisäkilvet voivat rajata kenelle ja kuinka pitkäksi aikaa.",
+   "nameSv": "Parkering",
+   "descSv": "Anger en plats där parkering är tillåten. Tilläggskyltar kan begränsa vem som får parkera och hur länge."
+  },
+  {
+   "code": "E3.1",
+   "category": "E",
+   "nameEn": "Park and ride",
+   "nameFi": "Liityntäpysäköintipaikka",
+   "image": "assets/signs/E3.1.svg",
+   "descEn": "Park and ride: leave the car here and continue by public transport.",
+   "descFi": "Liityntäpysäköinti: jätä auto tähän ja jatka joukkoliikenteellä.",
+   "nameSv": "Infartsparkering",
+   "descSv": "Infartsparkering: lämna bilen här och fortsätt med kollektivtrafiken."
+  },
+  {
+   "code": "E3.2",
+   "category": "E",
+   "nameEn": "Park and ride",
+   "nameFi": "Liityntäpysäköintipaikka",
+   "image": "assets/signs/E3.2.svg",
+   "descEn": "Park and ride: leave the car here and continue by public transport.",
+   "descFi": "Liityntäpysäköinti: jätä auto tähän ja jatka joukkoliikenteellä.",
+   "nameSv": "Infartsparkering",
+   "descSv": "Infartsparkering: lämna bilen här och fortsätt med kollektivtrafiken."
+  },
+  {
+   "code": "E3.3",
+   "category": "E",
+   "nameEn": "Park and ride",
+   "nameFi": "Liityntäpysäköintipaikka",
+   "image": "assets/signs/E3.3.svg",
+   "descEn": "Park and ride: leave the car here and continue by public transport.",
+   "descFi": "Liityntäpysäköinti: jätä auto tähän ja jatka joukkoliikenteellä.",
+   "nameSv": "Infartsparkering",
+   "descSv": "Infartsparkering: lämna bilen här och fortsätt med kollektivtrafiken."
+  },
+  {
+   "code": "E3.4",
+   "category": "E",
+   "nameEn": "Park and ride",
+   "nameFi": "Liityntäpysäköintipaikka",
+   "image": "assets/signs/E3.4.svg",
+   "descEn": "Park and ride: leave the car here and continue by public transport.",
+   "descFi": "Liityntäpysäköinti: jätä auto tähän ja jatka joukkoliikenteellä.",
+   "nameSv": "Infartsparkering",
+   "descSv": "Infartsparkering: lämna bilen här och fortsätt med kollektivtrafiken."
+  },
+  {
+   "code": "E3.5",
+   "category": "E",
+   "nameEn": "Park and ride",
+   "nameFi": "Liityntäpysäköintipaikka",
+   "image": "assets/signs/E3.5.svg",
+   "descEn": "Park and ride: leave the car here and continue by public transport.",
+   "descFi": "Liityntäpysäköinti: jätä auto tähän ja jatka joukkoliikenteellä.",
+   "nameSv": "Infartsparkering",
+   "descSv": "Infartsparkering: lämna bilen här och fortsätt med kollektivtrafiken."
+  },
+  {
+   "code": "E4.1",
+   "category": "E",
+   "nameEn": "Placing vehicles on a parking place",
+   "nameFi": "Ajoneuvojen sijoitus pysäköintipaikalla",
+   "image": "assets/signs/E4.1.svg",
+   "descEn": "Shows how vehicles must be positioned in the parking place.",
+   "descFi": "Osoittaa, miten ajoneuvot on sijoitettava pysäköintipaikalle.",
+   "nameSv": "Fordons placering på parkeringsplats",
+   "descSv": "Visar hur fordonen ska placeras på parkeringsplatsen."
+  },
+  {
+   "code": "E4.2",
+   "category": "E",
+   "nameEn": "Placing vehicles on a parking place",
+   "nameFi": "Ajoneuvojen sijoitus pysäköintipaikalla",
+   "image": "assets/signs/E4.2.svg",
+   "descEn": "Shows how vehicles must be positioned in the parking place.",
+   "descFi": "Osoittaa, miten ajoneuvot on sijoitettava pysäköintipaikalle.",
+   "nameSv": "Fordons placering på parkeringsplats",
+   "descSv": "Visar hur fordonen ska placeras på parkeringsplatsen."
+  },
+  {
+   "code": "E4.3",
+   "category": "E",
+   "nameEn": "Placing vehicles on a parking place",
+   "nameFi": "Ajoneuvojen sijoitus pysäköintipaikalla",
+   "image": "assets/signs/E4.3.svg",
+   "descEn": "Shows how vehicles must be positioned in the parking place.",
+   "descFi": "Osoittaa, miten ajoneuvot on sijoitettava pysäköintipaikalle.",
+   "nameSv": "Fordons placering på parkeringsplats",
+   "descSv": "Visar hur fordonen ska placeras på parkeringsplatsen."
+  },
+  {
+   "code": "E5",
+   "category": "E",
+   "nameEn": "Passing place (on narrow roads)",
+   "nameFi": "Kohtaamispaikka",
+   "image": "assets/signs/E5.svg",
+   "descEn": "A widened place on a narrow road where two vehicles can pass each other.",
+   "descFi": "Kapealla tiellä oleva levennys, jossa kaksi ajoneuvoa voi kohdata.",
+   "nameSv": "Mötesplats",
+   "descSv": "En breddning på en smal väg där två fordon kan mötas."
+  },
+  {
+   "code": "E6",
+   "category": "E",
+   "nameEn": "Bus stop",
+   "nameFi": "Linja-autopysäkki",
+   "image": "assets/signs/E6.svg",
+   "descEn": "Marks a bus stop. Stopping and parking are prohibited at the stop, and in a built-up area you must let a bus pull out.",
+   "descFi": "Osoittaa linja-autopysäkin. Pysäyttäminen ja pysäköinti pysäkillä on kielletty, ja taajamassa linja-auto on päästettävä lähtemään.",
+   "nameSv": "Busshållplats",
+   "descSv": "Anger en busshållplats. Att stanna och parkera vid hållplatsen är förbjudet, och i tätort ska du släppa ut bussen."
+  },
+  {
+   "code": "E7",
+   "category": "E",
+   "nameEn": "Tramway stop",
+   "nameFi": "Raitiovaunupysäkki",
+   "image": "assets/signs/E7.svg",
+   "descEn": "Marks a tram stop.",
+   "descFi": "Osoittaa raitiovaunupysäkin.",
+   "nameSv": "Spårvagnshållplats",
+   "descSv": "Anger en spårvagnshållplats."
+  },
+  {
+   "code": "E8",
+   "category": "E",
+   "nameEn": "Taxi station",
+   "nameFi": "Taksiasema",
+   "image": "assets/signs/E8.svg",
+   "descEn": "Marks a taxi rank.",
+   "descFi": "Osoittaa taksiaseman.",
+   "nameSv": "Taxistation",
+   "descSv": "Anger en taxistation."
+  },
+  {
+   "code": "E9.1",
+   "category": "E",
+   "nameEn": "Bus lane (sign above the line)",
+   "nameFi": "Linja-autokaista",
+   "image": "assets/signs/E9.1.svg",
+   "descEn": "The lane below the sign is reserved for buses.",
+   "descFi": "Merkin alapuolinen kaista on varattu linja-autoille.",
+   "nameSv": "Busskörfält",
+   "descSv": "Körfältet under märket är reserverat för bussar."
+  },
+  {
+   "code": "E9.2",
+   "category": "E",
+   "nameEn": "Bus and taxi lane (sign above the line)",
+   "nameFi": "Linja-autokaista",
+   "image": "assets/signs/E9.2.svg",
+   "descEn": "The lane below the sign is reserved for buses and taxis.",
+   "descFi": "Merkin alapuolinen kaista on varattu linja-autoille ja takseille.",
+   "nameSv": "Buss- och taxikörfält",
+   "descSv": "Körfältet under märket är reserverat för bussar och taxi."
+  },
+  {
+   "code": "E10.1",
+   "category": "E",
+   "nameEn": "End of bus lane (sign above the line)",
+   "nameFi": "Linja-autokaista päättyy",
+   "image": "assets/signs/E10.1.svg",
+   "descEn": "The bus lane ends here.",
+   "descFi": "Linja-autokaista päättyy tähän.",
+   "nameSv": "Busskörfält upphör",
+   "descSv": "Busskörfältet upphör här."
+  },
+  {
+   "code": "E10.2",
+   "category": "E",
+   "nameEn": "End of bus and taxi lane (sign above the line)",
+   "nameFi": "Linja-autokaista päättyy",
+   "image": "assets/signs/E10.2.svg",
+   "descEn": "The bus and taxi lane ends here.",
+   "descFi": "Linja-auto- ja taksikaista päättyy tähän.",
+   "nameSv": "Buss- och taxikörfält upphör",
+   "descSv": "Buss- och taxikörfältet upphör här."
+  },
+  {
+   "code": "E11.1",
+   "category": "E",
+   "nameEn": "Tramway lane (sign above the line)",
+   "nameFi": "Raitiovaunukaista",
+   "image": "assets/signs/E11.1.svg",
+   "descEn": "The lane below the sign is reserved for trams.",
+   "descFi": "Merkin alapuolinen kaista on varattu raitiovaunuille.",
+   "nameSv": "Spårvagnsfält",
+   "descSv": "Körfältet under märket är reserverat för spårvagnar."
+  },
+  {
+   "code": "E11.2",
+   "category": "E",
+   "nameEn": "Tramway and taxi lane (sign above the line)",
+   "nameFi": "Raitiovaunukaista",
+   "image": "assets/signs/E11.2.svg",
+   "descEn": "The lane below the sign is reserved for trams and taxis.",
+   "descFi": "Merkin alapuolinen kaista on varattu raitiovaunuille ja takseille.",
+   "nameSv": "Spårvagns- och taxikörfält",
+   "descSv": "Körfältet under märket är reserverat för spårvagnar och taxi."
+  },
+  {
+   "code": "E12.1",
+   "category": "E",
+   "nameEn": "End of tramway lane (sign above the line)",
+   "nameFi": "Raitiovaunukaista päättyy",
+   "image": "assets/signs/E12.1.svg",
+   "descEn": "The tram lane ends here.",
+   "descFi": "Raitiovaunukaista päättyy tähän.",
+   "nameSv": "Spårvagnsfält upphör",
+   "descSv": "Spårvagnskörfältet upphör här."
+  },
+  {
+   "code": "E12.2",
+   "category": "E",
+   "nameEn": "End of tramway and taxi lane (sign above the lane)",
+   "nameFi": "Raitiovaunukaista päättyy",
+   "image": "assets/signs/E12.2.svg",
+   "descEn": "The tram and taxi lane ends here.",
+   "descFi": "Raitiovaunu- ja taksikaista päättyy tähän.",
+   "nameSv": "Spårvagns- och taxikörfält upphör",
+   "descSv": "Spårvagns- och taxikörfältet upphör här."
+  },
+  {
+   "code": "E13.1",
+   "category": "E",
+   "nameEn": "Cycle lane (sign above the line)",
+   "nameFi": "Pyöräkaista",
+   "image": "assets/signs/E13.1.svg",
+   "descEn": "The lane below the sign is a cycle lane, marked on the carriageway itself.",
+   "descFi": "Merkin alapuolinen kaista on pyöräkaista, merkittynä itse ajoradalle.",
+   "nameSv": "Cykelfält",
+   "descSv": "Körfältet under märket är ett cykelfält, markerat på själva körbanan."
+  },
+  {
+   "code": "E13.2",
+   "category": "E",
+   "nameEn": "Cycle lane (sign above the line)",
+   "nameFi": "Pyöräkaista",
+   "image": "assets/signs/E13.2.svg",
+   "descEn": "The lane below the sign is a cycle lane, marked on the carriageway itself.",
+   "descFi": "Merkin alapuolinen kaista on pyöräkaista, merkittynä itse ajoradalle.",
+   "nameSv": "Cykelfält",
+   "descSv": "Körfältet under märket är ett cykelfält, markerat på själva körbanan."
+  },
+  {
+   "code": "E14.1",
+   "category": "E",
+   "nameEn": "One-way traffic",
+   "nameFi": "Yksisuuntainen tie",
+   "image": "assets/signs/E14.1.svg",
+   "descEn": "Traffic on this road runs in one direction only, the way the arrow points.",
+   "descFi": "Tiellä liikennöidään vain yhteen suuntaan, nuolen osoittamaan suuntaan.",
+   "nameSv": "Enkelriktad väg",
+   "descSv": "Trafiken på vägen går endast i en riktning, den som pilen visar."
+  },
+  {
+   "code": "E14.2",
+   "category": "E",
+   "nameEn": "One-way traffic",
+   "nameFi": "Yksisuuntainen tie",
+   "image": "assets/signs/E14.2.svg",
+   "descEn": "Traffic on this road runs in one direction only, the way the arrow points.",
+   "descFi": "Tiellä liikennöidään vain yhteen suuntaan, nuolen osoittamaan suuntaan.",
+   "nameSv": "Enkelriktad väg",
+   "descSv": "Trafiken på vägen går endast i en riktning, den som pilen visar."
+  },
+  {
+   "code": "E15",
+   "category": "E",
+   "nameEn": "Motorway",
+   "nameFi": "Moottoritie",
+   "image": "assets/signs/E15.svg",
+   "descEn": "Motorway begins. Pedestrians, cyclists, mopeds and tractors are not allowed, and stopping, reversing and U-turns are forbidden.",
+   "descFi": "Moottoritie alkaa. Jalankulku, pyöräily, mopoilu ja traktorit on kielletty, samoin pysäyttäminen, peruuttaminen ja U-käännös.",
+   "nameSv": "Motorväg",
+   "descSv": "Motorväg börjar. Gående, cyklister, mopeder och traktorer är förbjudna, likaså att stanna, backa och göra U-sväng."
+  },
+  {
+   "code": "E16",
+   "category": "E",
+   "nameEn": "End of motorway",
+   "nameFi": "Moottoritie päättyy",
+   "image": "assets/signs/E16.svg",
+   "descEn": "The motorway ends and ordinary road rules apply again.",
+   "descFi": "Moottoritie päättyy ja tavalliset tien säännöt astuvat jälleen voimaan.",
+   "nameSv": "Motorväg upphör",
+   "descSv": "Motorvägen upphör och vanliga vägregler gäller igen."
+  },
+  {
+   "code": "E17",
+   "category": "E",
+   "nameEn": "Road for motor vehicles",
+   "nameFi": "Moottoriliikennetie",
+   "image": "assets/signs/E17.svg",
+   "descEn": "A road for motor vehicles: restricted like a motorway but built to a lighter standard, often one lane each way.",
+   "descFi": "Moottoriliikennetie: moottoritien tapaan rajoitettu mutta kevyempään standardiin rakennettu, usein yksi kaista suuntaansa.",
+   "nameSv": "Motortrafikled",
+   "descSv": "Motortrafikled: begränsad som en motorväg men byggd till en enklare standard, ofta ett körfält i vardera riktningen."
+  },
+  {
+   "code": "E18",
+   "category": "E",
+   "nameEn": "End of road for motor vehicles",
+   "nameFi": "Moottoriliikennetie päättyy",
+   "image": "assets/signs/E18.svg",
+   "descEn": "The road for motor vehicles ends.",
+   "descFi": "Moottoriliikennetie päättyy.",
+   "nameSv": "Motortrafikled upphör",
+   "descSv": "Motortrafikleden upphör."
+  },
+  {
+   "code": "E19",
+   "category": "E",
+   "nameEn": "Tunnel",
+   "nameFi": "Tunneli",
+   "image": "assets/signs/E19.svg",
+   "descEn": "A tunnel begins. Switch on dipped beam, take off sunglasses, and keep your distance.",
+   "descFi": "Tunneli alkaa. Sytytä lähivalot, ota aurinkolasit pois ja pidä turvaväli.",
+   "nameSv": "Tunnel",
+   "descSv": "En tunnel börjar. Tänd halvljuset, ta av solglasögonen och håll avståndet."
+  },
+  {
+   "code": "E20",
+   "category": "E",
+   "nameEn": "End of tunnel",
+   "nameFi": "Tunneli päättyy",
+   "image": "assets/signs/E20.svg",
+   "descEn": "The tunnel ends.",
+   "descFi": "Tunneli päättyy.",
+   "nameSv": "Tunnel upphör",
+   "descSv": "Tunneln upphör."
+  },
+  {
+   "code": "E21",
+   "category": "E",
+   "nameEn": "Emergency stopping place",
+   "nameFi": "Hätäpysäyttämispaikka",
+   "image": "assets/signs/E21.svg",
+   "descEn": "A place set aside for stopping in an emergency, typically in or near a tunnel.",
+   "descFi": "Paikka, joka on varattu hätätilanteessa pysähtymiseen, tyypillisesti tunnelissa tai sen lähellä.",
+   "nameSv": "Nöduppställningsplats",
+   "descSv": "En plats avsedd för nödstopp, vanligen i eller nära en tunnel."
+  },
+  {
+   "code": "E22",
+   "category": "E",
+   "nameEn": "Built-up area",
+   "nameFi": "Taajama",
+   "image": "assets/signs/E22.svg",
+   "descEn": "A built-up area begins. Unless a sign says otherwise the speed limit is 50 km/h, and the rules for built-up areas apply.",
+   "descFi": "Taajama alkaa. Ellei merkki muuta osoita, nopeusrajoitus on 50 km/h ja taajaman säännöt ovat voimassa.",
+   "nameSv": "Tätort",
+   "descSv": "Tätort börjar. Om inget märke anger annat är hastighetsbegränsningen 50 km/h och tätortens regler gäller."
+  },
+  {
+   "code": "E23",
+   "category": "E",
+   "nameEn": "End of built-up area",
+   "nameFi": "Taajama päättyy",
+   "image": "assets/signs/E23.svg",
+   "descEn": "The built-up area ends; the general limit outside built-up areas applies again.",
+   "descFi": "Taajama päättyy; taajaman ulkopuolinen yleisrajoitus astuu jälleen voimaan.",
+   "nameSv": "Tätort upphör",
+   "descSv": "Tätorten upphör; den allmänna begränsningen utanför tätort gäller igen."
+  },
+  {
+   "code": "E24",
+   "category": "E",
+   "nameEn": "Residential area",
+   "nameFi": "Pihakatu",
+   "image": "assets/signs/E24.svg",
+   "descEn": "A residential street area: walking is allowed everywhere, vehicles give way to pedestrians and the limit is 20 km/h.",
+   "descFi": "Pihakatu: jalankulku on sallittu kaikkialla, ajoneuvot väistävät jalankulkijoita ja rajoitus on 20 km/h.",
+   "nameSv": "Gårdsgata",
+   "descSv": "Gårdsgata: gång är tillåten överallt, fordon väjer för gående och begränsningen är 20 km/h."
+  },
+  {
+   "code": "E25",
+   "category": "E",
+   "nameEn": "End of residential area",
+   "nameFi": "Pihakatu päättyy",
+   "image": "assets/signs/E25.svg",
+   "descEn": "The residential street area ends.",
+   "descFi": "Pihakatu päättyy.",
+   "nameSv": "Gårdsgata upphör",
+   "descSv": "Gårdsgatan upphör."
+  },
+  {
+   "code": "E26",
+   "category": "E",
+   "nameEn": "Pedestrian zone",
+   "nameFi": "Kävelykatu",
+   "image": "assets/signs/E26.svg",
+   "descEn": "A pedestrian street. Driving is allowed only where separately permitted, and always at walking pace.",
+   "descFi": "Kävelykatu. Ajo on sallittu vain erikseen sallituissa tapauksissa ja aina kävelyvauhtia.",
+   "nameSv": "Gågata",
+   "descSv": "Gågata. Körning är tillåten endast där det särskilt medgetts, och alltid i gångfart."
+  },
+  {
+   "code": "E27",
+   "category": "E",
+   "nameEn": "End of pedestrian zone",
+   "nameFi": "Kävelykatu päättyy",
+   "image": "assets/signs/E27.svg",
+   "descEn": "The pedestrian street ends.",
+   "descFi": "Kävelykatu päättyy.",
+   "nameSv": "Gågata upphör",
+   "descSv": "Gågatan upphör."
+  },
+  {
+   "code": "E28",
+   "category": "E",
+   "nameEn": "Cycle street",
+   "nameFi": "Pyöräkatu",
+   "image": "assets/signs/E28.svg",
+   "descEn": "A cycle street: cycling sets the pace and other vehicles must adapt to it.",
+   "descFi": "Pyöräkatu: pyöräily määrää vauhdin ja muiden ajoneuvojen on sopeuduttava siihen.",
+   "nameSv": "Cykelgata",
+   "descSv": "Cykelgata: cyklingen bestämmer takten och andra fordon ska anpassa sig till den."
+  },
+  {
+   "code": "E29",
+   "category": "E",
+   "nameEn": "End of cycle street",
+   "nameFi": "Pyöräkatu päättyy",
+   "image": "assets/signs/E29.svg",
+   "descEn": "The cycle street ends.",
+   "descFi": "Pyöräkatu päättyy.",
+   "nameSv": "Cykelgata upphör",
+   "descSv": "Cykelgatan upphör."
+  },
+  {
+   "code": "E30",
+   "category": "E",
+   "nameEn": "Merging lanes",
+   "nameFi": "Ajokaistojen yhdistyminen",
+   "image": "assets/signs/E30.png",
+   "descEn": "Two lanes merge into one. Use the zipper principle: one vehicle from each lane in turn.",
+   "descFi": "Kaksi kaistaa yhdistyy yhdeksi. Käytä vuorotteluperiaatetta: vuorotellen yksi ajoneuvo kummaltakin kaistalta.",
+   "nameSv": "Sammanvävning av körfält",
+   "descSv": "Två körfält går samman till ett. Använd växelvis körning: ett fordon från vardera körfältet i tur och ordning."
+  },
+  {
+   "code": "F1.1",
+   "category": "F",
+   "nameEn": "Advance direction sign (type A)",
+   "nameFi": "Suunnistustaulu",
+   "image": "assets/signs/F1.1.png",
+   "nameSv": "Orienteringstavla"
+  },
+  {
+   "code": "F1.2",
+   "category": "F",
+   "nameEn": "Advance direction sign (type A)",
+   "nameFi": "Suunnistustaulu",
+   "image": "assets/signs/F1.2.png",
+   "nameSv": "Orienteringstavla"
+  },
+  {
+   "code": "F1.3",
+   "category": "F",
+   "nameEn": "Advance direction sign (type A)",
+   "nameFi": "Suunnistustaulu",
+   "image": "assets/signs/F1.3.png",
+   "nameSv": "Orienteringstavla"
+  },
+  {
+   "code": "F2.1",
+   "category": "F",
+   "nameEn": "Advance direction sign (type B)",
+   "nameFi": "Suunnistustaulu",
+   "image": "assets/signs/F2.1.png",
+   "nameSv": "Orienteringstavla"
+  },
+  {
+   "code": "F2.2",
+   "category": "F",
+   "nameEn": "Advance direction sign (type B)",
+   "nameFi": "Suunnistustaulu",
+   "image": "assets/signs/F2.2.png",
+   "nameSv": "Orienteringstavla"
+  },
+  {
+   "code": "F2.3",
+   "category": "F",
+   "nameEn": "Advance direction sign (type B)",
+   "nameFi": "Suunnistustaulu",
+   "image": "assets/signs/F2.3.png",
+   "nameSv": "Orienteringstavla"
+  },
+  {
+   "code": "F3",
+   "category": "F",
+   "nameEn": "Lane-specific advance direction sign",
+   "nameFi": "Ajokaistakohtainen suunnistustaulu",
+   "image": "assets/signs/F3.png",
+   "nameSv": "Körfältsvis orienteringstavla"
+  },
+  {
+   "code": "F4.1",
+   "category": "F",
+   "nameEn": "Advisory sign for detour",
+   "nameFi": "Kiertotien suunnistustaulu",
+   "image": "assets/signs/F4.1.png",
+   "nameSv": "Orienteringstavla för omfartsväg"
+  },
+  {
+   "code": "F4.2",
+   "category": "F",
+   "nameEn": "Advisory sign for detour",
+   "nameFi": "Kiertotien suunnistustaulu",
+   "image": "assets/signs/F4.2.svg",
+   "nameSv": "Orienteringstavla för omfartsväg"
+  },
+  {
+   "code": "F5",
+   "category": "F",
+   "nameEn": "Detour",
+   "nameFi": "Kiertotieopastus",
+   "image": "assets/signs/F5.svg",
+   "nameSv": "Omfartsinformation"
+  },
+  {
+   "code": "F6",
+   "category": "F",
+   "nameEn": "Route to be followed (in order to turn left)",
+   "nameFi": "Ajoreittiopastus",
+   "image": "assets/signs/F6.png",
+   "nameSv": "Körruttsinformation"
+  },
+  {
+   "code": "F7.1",
+   "category": "F",
+   "nameEn": "Information on traffic lanes",
+   "nameFi": "Ajokaistaopastus",
+   "image": "assets/signs/F7.1.svg",
+   "nameSv": "Körfältsinformation"
+  },
+  {
+   "code": "F7.2",
+   "category": "F",
+   "nameEn": "Information on traffic lanes",
+   "nameFi": "Ajokaistaopastus",
+   "image": "assets/signs/F7.2.svg",
+   "nameSv": "Körfältsinformation"
+  },
+  {
+   "code": "F7.3",
+   "category": "F",
+   "nameEn": "Information on traffic lanes",
+   "nameFi": "Ajokaistaopastus",
+   "image": "assets/signs/F7.3.svg",
+   "nameSv": "Körfältsinformation"
+  },
+  {
+   "code": "F7.4",
+   "category": "F",
+   "nameEn": "Information on traffic lanes",
+   "nameFi": "Ajokaistaopastus",
+   "image": "assets/signs/F7.4.svg",
+   "nameSv": "Körfältsinformation"
+  },
+  {
+   "code": "F7.5",
+   "category": "F",
+   "nameEn": "Information on traffic lanes",
+   "nameFi": "Ajokaistaopastus",
+   "image": "assets/signs/F7.5.svg",
+   "nameSv": "Körfältsinformation"
+  },
+  {
+   "code": "F7.6",
+   "category": "F",
+   "nameEn": "Information on traffic lanes",
+   "nameFi": "Ajokaistaopastus",
+   "image": "assets/signs/F7.6.svg",
+   "nameSv": "Körfältsinformation"
+  },
+  {
+   "code": "F8.1",
+   "category": "F",
+   "nameEn": "End of lane",
+   "nameFi": "Ajokaistan päättyminen",
+   "image": "assets/signs/F8.1.svg",
+   "nameSv": "Körfältet upphör"
+  },
+  {
+   "code": "F8.2",
+   "category": "F",
+   "nameEn": "End of lane",
+   "nameFi": "Ajokaistan päättyminen",
+   "image": "assets/signs/F8.2.svg",
+   "nameSv": "Körfältet upphör"
+  },
+  {
+   "code": "F9",
+   "category": "F",
+   "nameEn": "Combined direction sign",
+   "nameFi": "Viitoituksen koontimerkki",
+   "image": "assets/signs/F9.png",
+   "nameSv": "Samlingsmärke för vägvisning"
+  },
+  {
+   "code": "F10",
+   "category": "F",
+   "nameEn": "Overhead lane direction sign",
+   "nameFi": "Ajokaistan yläpuolinen viitta",
+   "image": "assets/signs/F10.png",
+   "nameSv": "Vägvisare ovanför körfält"
+  },
+  {
+   "code": "F11",
+   "category": "F",
+   "nameEn": "Overhead lane direction sign",
+   "nameFi": "Ajokaistan yläpuolinen viitta",
+   "image": "assets/signs/F11.png",
+   "nameSv": "Vägvisare ovanför körfält"
+  },
+  {
+   "code": "F12",
+   "category": "F",
+   "nameEn": "Overhead lane exit direction sign",
+   "nameFi": "Ajokaistan yläpuolinen erkanemisviitta",
+   "image": "assets/signs/F12.png",
+   "nameSv": "Avfartsvisare ovanför körfält"
+  },
+  {
+   "code": "F13",
+   "category": "F",
+   "nameEn": "Direction sign",
+   "nameFi": "Tienviitta",
+   "image": "assets/signs/F13.png",
+   "nameSv": "Vägvisare"
+  },
+  {
+   "code": "F14",
+   "category": "F",
+   "nameEn": "Exit direction sign",
+   "nameFi": "Erkanemisviitta",
+   "image": "assets/signs/F14.png",
+   "nameSv": "Avfartsvisare"
+  },
+  {
+   "code": "F15",
+   "category": "F",
+   "nameEn": "Direction sign for detour",
+   "nameFi": "Kiertotien viitta",
+   "image": "assets/signs/F15.svg",
+   "nameSv": "Vägvisare för omfartsväg"
+  },
+  {
+   "code": "F16",
+   "category": "F",
+   "nameEn": "Address direction sign",
+   "nameFi": "Osoiteviitta",
+   "image": "assets/signs/F16.png",
+   "nameSv": "Adressvägvisare"
+  },
+  {
+   "code": "F17",
+   "category": "F",
+   "nameEn": "Advance sign for address direction sign",
+   "nameFi": "Osoiteviitan ennakkomerkki",
+   "image": "assets/signs/F17.png",
+   "nameSv": "Förhandsmärke för adressvägvisare"
+  },
+  {
+   "code": "F18",
+   "category": "F",
+   "nameEn": "Park and ride direction sign",
+   "nameFi": "Liityntäpysäköintiviitta",
+   "image": "assets/signs/F18.svg",
+   "nameSv": "Vägvisare till infartsparkering"
+  },
+  {
+   "code": "F18.1",
+   "category": "F",
+   "nameEn": "Direction sign showing park-and-ride facilities",
+   "nameFi": "Liityntäpysäköintiviitta",
+   "image": "assets/signs/F18.1.jpg",
+   "nameSv": "Vägvisare till infartsparkering"
+  },
+  {
+   "code": "F18.2",
+   "category": "F",
+   "nameEn": "Direction sign showing park-and-ride facilities",
+   "nameFi": "Liityntäpysäköintiviitta",
+   "image": "assets/signs/F18.2.jpg",
+   "nameSv": "Vägvisare till infartsparkering"
+  },
+  {
+   "code": "F18.3",
+   "category": "F",
+   "nameEn": "Direction sign showing park-and-ride facilities",
+   "nameFi": "Liityntäpysäköintiviitta",
+   "image": "assets/signs/F18.3.jpg",
+   "nameSv": "Vägvisare till infartsparkering"
+  },
+  {
+   "code": "F18.4",
+   "category": "F",
+   "nameEn": "Direction sign showing park-and-ride facilities",
+   "nameFi": "Liityntäpysäköintiviitta",
+   "image": "assets/signs/F18.4.jpg",
+   "nameSv": "Vägvisare till infartsparkering"
+  },
+  {
+   "code": "F18.5",
+   "category": "F",
+   "nameEn": "Direction sign showing park-and-ride facilities",
+   "nameFi": "Liityntäpysäköintiviitta",
+   "image": "assets/signs/F18.5.jpg",
+   "nameSv": "Vägvisare till infartsparkering"
+  },
+  {
+   "code": "F19",
+   "category": "F",
+   "nameEn": "Pedestrian direction sign",
+   "nameFi": "Jalankulun viitta",
+   "image": "assets/signs/F19.png",
+   "nameSv": "Vägvisare för gångtrafik"
+  },
+  {
+   "code": "F20.1",
+   "category": "F",
+   "nameEn": "Cycle route direction sign",
+   "nameFi": "Pyöräilyn viitta",
+   "image": "assets/signs/F20.1.png",
+   "nameSv": "Vägvisare för cykeltrafik"
+  },
+  {
+   "code": "F20.2",
+   "category": "F",
+   "nameEn": "Direction sign for light traffic (pedestrian and cycle traffic)",
+   "nameFi": "Pyöräilyn viitta",
+   "image": "assets/signs/F20.2.png",
+   "nameSv": "Vägvisare för gång- och cykeltrafik"
+  },
+  {
+   "code": "F21.1",
+   "category": "F",
+   "nameEn": "Cycle route advance direction sign",
+   "nameFi": "Pyöräilyn suunnistustaulu",
+   "image": "assets/signs/F21.1.png",
+   "nameSv": "Orienteringstavla för cykeltrafik"
+  },
+  {
+   "code": "F21.2",
+   "category": "F",
+   "nameEn": "Cycle route advance direction sign",
+   "nameFi": "Pyöräilyn suunnistustaulu",
+   "image": "assets/signs/F21.2.png",
+   "nameSv": "Orienteringstavla för cykeltrafik"
+  },
+  {
+   "code": "F22",
+   "category": "F",
+   "nameEn": "Cycle route distance sign",
+   "nameFi": "Pyöräilyn etäisyystaulu",
+   "image": "assets/signs/F22.png",
+   "nameSv": "Avståndstavla för cykeltrafik"
+  },
+  {
+   "code": "F23",
+   "category": "F",
+   "nameEn": "Cycle route place name",
+   "nameFi": "Pyöräilyn paikannimi",
+   "image": "assets/signs/F23.png",
+   "nameSv": "Ortnamn för cykeltrafik"
+  },
+  {
+   "code": "F24.1",
+   "category": "F",
+   "nameEn": "No through road",
+   "nameFi": "Umpitie",
+   "image": "assets/signs/F24.1.svg",
+   "nameSv": "Återvändsväg"
+  },
+  {
+   "code": "F24.2",
+   "category": "F",
+   "nameEn": "No through road",
+   "nameFi": "Umpitie",
+   "image": "assets/signs/F24.2.svg",
+   "nameSv": "Återvändsväg"
+  },
+  {
+   "code": "F24.3",
+   "category": "F",
+   "nameEn": "No through road",
+   "nameFi": "Umpitie",
+   "image": "assets/signs/F24.3.svg",
+   "nameSv": "Återvändsväg (genomfartförbindelse för cyklister)"
+  },
+  {
+   "code": "F25",
+   "category": "F",
+   "nameEn": "Advisory speed",
+   "nameFi": "Enimmäisnopeussuositus",
+   "image": "assets/signs/F25.svg",
+   "nameSv": "Rekommenderad högsta hastighet"
+  },
+  {
+   "code": "F26",
+   "category": "F",
+   "nameEn": "Distance sign",
+   "nameFi": "Etäisyystaulu",
+   "image": "assets/signs/F26.png",
+   "nameSv": "Avståndstavla"
+  },
+  {
+   "code": "F27.1",
+   "category": "F",
+   "nameEn": "Place name",
+   "nameFi": "Paikannimi",
+   "image": "assets/signs/F27.1.svg",
+   "nameSv": "Ortnamn"
+  },
+  {
+   "code": "F27.2",
+   "category": "F",
+   "nameEn": "Place name (waterway)",
+   "nameFi": "Paikannimi",
+   "image": "assets/signs/F27.2.svg",
+   "nameSv": "Namnet på vattendrag"
+  },
+  {
+   "code": "F28",
+   "category": "F",
+   "nameEn": "Road number (E-road; European route)",
+   "nameFi": "Kansainvälisen pääliikenneväylän numero",
+   "image": "assets/signs/F28.svg",
+   "nameSv": "Nummerskylt för internationell huvudled"
+  },
+  {
+   "code": "F29",
+   "category": "F",
+   "nameEn": "Road number (primary road; main road, Class I; 1–39)",
+   "nameFi": "Valtatien numero",
+   "image": "assets/signs/F29.svg",
+   "nameSv": "Nummerskylt för riksväg"
+  },
+  {
+   "code": "F30",
+   "category": "F",
+   "nameEn": "Road number (secondary road; main road, Class II; 40–99)",
+   "nameFi": "Kantatien numero",
+   "image": "assets/signs/F30.svg",
+   "nameSv": "Nummerskylt för stamväg"
+  },
+  {
+   "code": "F31",
+   "category": "F",
+   "nameEn": "Road number (regional road; 100–999)",
+   "nameFi": "Seututien numero",
+   "image": "assets/signs/F31.svg",
+   "nameSv": "Nummerskylt för regionalväg"
+  },
+  {
+   "code": "F32",
+   "category": "F",
+   "nameEn": "Road number (ordinary road; connecting road; 1000–9999)",
+   "nameFi": "Muun maantien numero",
+   "image": "assets/signs/F32.svg",
+   "nameSv": "Nummerskylt för annan landsväg"
+  },
+  {
+   "code": "F33",
+   "category": "F",
+   "nameEn": "Road number (ring road)",
+   "nameFi": "Kehätien numero",
+   "image": "assets/signs/F33.svg",
+   "nameSv": "Nummerskylt för ringväg"
+  },
+  {
+   "code": "F34",
+   "category": "F",
+   "nameEn": "Interchange number",
+   "nameFi": "Eritasoliittymän numero",
+   "image": "assets/signs/F34.png",
+   "nameSv": "Trafikplatsnummer"
+  },
+  {
+   "code": "F35",
+   "category": "F",
+   "nameEn": "Direction to the numbered road",
+   "nameFi": "Opastus merkin tarkoittamalle tielle",
+   "image": "assets/signs/F35.svg",
+   "nameSv": "Orientering till den väg som numret avser"
+  },
+  {
+   "code": "F36",
+   "category": "F",
+   "nameEn": "Substitute route",
+   "nameFi": "Varareitti",
+   "image": "assets/signs/F36.jpg",
+   "nameSv": "Reservrutt"
+  },
+  {
+   "code": "F37",
+   "category": "F",
+   "nameEn": "Symbol of motorway",
+   "nameFi": "Moottoritien tunnus",
+   "image": "assets/signs/F37.svg",
+   "nameSv": "Symbol för motorväg"
+  },
+  {
+   "code": "F38",
+   "category": "F",
+   "nameEn": "Symbol of road for motor vehicles",
+   "nameFi": "Moottoriliikennetien tunnus",
+   "image": "assets/signs/F38.svg",
+   "nameSv": "Symbol för motortrafikled"
+  },
+  {
+   "code": "F39",
+   "category": "F",
+   "nameEn": "Airport",
+   "nameFi": "Lentoasema",
+   "image": "assets/signs/F39.svg",
+   "nameSv": "Flygstation"
+  },
+  {
+   "code": "F40",
+   "category": "F",
+   "nameEn": "Ferry",
+   "nameFi": "Autolautta",
+   "image": "assets/signs/F40.svg",
+   "nameSv": "Bilfärja"
+  },
+  {
+   "code": "F41",
+   "category": "F",
+   "nameEn": "Passenger terminal",
+   "nameFi": "Matkustajasatama",
+   "image": "assets/signs/F41.svg",
+   "nameSv": "Passagerarhamn"
+  },
+  {
+   "code": "F42",
+   "category": "F",
+   "nameEn": "Cargo terminal",
+   "nameFi": "Tavarasatama",
+   "image": "assets/signs/F42.svg",
+   "nameSv": "Godshamn"
+  },
+  {
+   "code": "F43",
+   "category": "F",
+   "nameEn": "Freight terminal",
+   "nameFi": "Tavaraterminaali",
+   "image": "assets/signs/F43.svg",
+   "nameSv": "Godsterminal"
+  },
+  {
+   "code": "F44",
+   "category": "F",
+   "nameEn": "Industrial area",
+   "nameFi": "Teollisuusalue tai yritysalue",
+   "image": "assets/signs/F44.svg",
+   "nameSv": "Industriområde eller företagsområde"
+  },
+  {
+   "code": "F45",
+   "category": "F",
+   "nameEn": "Retail park",
+   "nameFi": "Vähittäiskaupan suuryksikkö",
+   "image": "assets/signs/F45.svg",
+   "nameSv": "Stor detaljhandelsenhet"
+  },
+  {
+   "code": "F46.1",
+   "category": "F",
+   "nameEn": "Parking",
+   "nameFi": "Pysäköinti",
+   "image": "assets/signs/F46.1.svg",
+   "nameSv": "Parkering"
+  },
+  {
+   "code": "F46.2",
+   "category": "F",
+   "nameEn": "Parking garage",
+   "nameFi": "Pysäköinti",
+   "image": "assets/signs/F46.2.svg",
+   "nameSv": "Parkeringshus"
+  },
+  {
+   "code": "F47",
+   "category": "F",
+   "nameEn": "Railway station",
+   "nameFi": "Rautatieasema",
+   "image": "assets/signs/F47.svg",
+   "nameSv": "Järnvägsstation"
+  },
+  {
+   "code": "F48",
+   "category": "F",
+   "nameEn": "Bus station",
+   "nameFi": "Linja-autoasema",
+   "image": "assets/signs/F48.svg",
+   "nameSv": "Busstation"
+  },
+  {
+   "code": "F49",
+   "category": "F",
+   "nameEn": "City Centre symbol",
+   "nameFi": "Keskusta",
+   "image": "assets/signs/F49.svg",
+   "nameSv": "Centrum"
+  },
+  {
+   "code": "F50",
+   "category": "F",
+   "nameEn": "Itinerary for indicated vehicle category",
+   "nameFi": "Tietylle ajoneuvolle tarkoitettu reitti",
+   "image": "assets/signs/F50.svg",
+   "nameSv": "Rutt för vissa slag av fordon"
+  },
+  {
+   "code": "F51",
+   "category": "F",
+   "nameEn": "Itinerary for transport of dangerous goods",
+   "nameFi": "Vaarallisten aineiden kuljetukselle tarkoitettu reitti",
+   "image": "assets/signs/F51.svg",
+   "nameSv": "Rutt för transport av farliga ämnen"
+  },
+  {
+   "code": "F52",
+   "category": "F",
+   "nameEn": "Itinerary for pedestrians",
+   "nameFi": "Jalankulkijalle tarkoitettu reitti",
+   "image": "assets/signs/F52.svg",
+   "nameSv": "Rutt avsedd för fotgängare"
+  },
+  {
+   "code": "F53",
+   "category": "F",
+   "nameEn": "Itinerary for handicapped",
+   "nameFi": "Esteetön reitti",
+   "image": "assets/signs/F53.svg",
+   "nameSv": "Tillgänglig rutt"
+  },
+  {
+   "code": "F54",
+   "category": "F",
+   "nameEn": "Route with steps",
+   "nameFi": "Reitti, jolla on portaat",
+   "image": "assets/signs/F54.svg",
+   "nameSv": "Rutt med trappor"
+  },
+  {
+   "code": "F54.1",
+   "category": "F",
+   "nameEn": "Overpass or underpass with steps",
+   "nameFi": "Reitti, jolla on portaat",
+   "image": "assets/signs/F54.1.svg",
+   "nameSv": "Över- eller undergång med trappor"
+  },
+  {
+   "code": "F54.2",
+   "category": "F",
+   "nameEn": "Overpass or underpass with steps",
+   "nameFi": "Reitti, jolla on portaat",
+   "image": "assets/signs/F54.2.jpg",
+   "nameSv": "Över- eller undergång med trappor"
+  },
+  {
+   "code": "F55",
+   "category": "F",
+   "nameEn": "Route without steps",
+   "nameFi": "Reitti ilman portaita",
+   "image": "assets/signs/F55.svg",
+   "nameSv": "Rutt utan trappor"
+  },
+  {
+   "code": "F55.1",
+   "category": "F",
+   "nameEn": "Overpass or underpass without steps",
+   "nameFi": "Reitti ilman portaita",
+   "image": "assets/signs/F55.1.svg",
+   "nameSv": "Över- eller undergång utan trappor"
+  },
+  {
+   "code": "F55.2",
+   "category": "F",
+   "nameEn": "Overpass or underpass with ramp",
+   "nameFi": "Reitti ilman portaita",
+   "image": "assets/signs/F55.2.jpg",
+   "nameSv": "Över- eller undergång med ramp"
+  },
+  {
+   "code": "F55.3",
+   "category": "F",
+   "nameEn": "Accessible route",
+   "nameFi": "Reitti ilman portaita",
+   "image": "assets/signs/F55.3.jpg",
+   "nameSv": "Tillgänglig rutt"
+  },
+  {
+   "code": "F55.4",
+   "category": "F",
+   "nameEn": "Accessible route",
+   "nameFi": "Reitti ilman portaita",
+   "image": "assets/signs/F55.4.jpg",
+   "nameSv": "Tillgänglig rutt"
+  },
+  {
+   "code": "F56",
+   "category": "F",
+   "nameEn": "Emergency exit",
+   "nameFi": "Hätäuloskäynti",
+   "image": "assets/signs/F56.svg",
+   "nameSv": "Nödutgång"
+  },
+  {
+   "code": "F56.1",
+   "category": "F",
+   "nameEn": "Emergency exit",
+   "nameFi": "Hätäuloskäynti",
+   "image": "assets/signs/F56.1.jpg",
+   "nameSv": "Nödutgång"
+  },
+  {
+   "code": "F56.2",
+   "category": "F",
+   "nameEn": "Emergency exit",
+   "nameFi": "Hätäuloskäynti",
+   "image": "assets/signs/F56.2.jpg",
+   "nameSv": "Nödutgång"
+  },
+  {
+   "code": "F57",
+   "category": "F",
+   "nameEn": "Escape route",
+   "nameFi": "Poistumisreitti",
+   "image": "assets/signs/F57.svg",
+   "nameSv": "Utrymningsväg"
+  },
+  {
+   "code": "F57.1",
+   "category": "F",
+   "nameEn": "Direction to emergency exit",
+   "nameFi": "Hätäuloskäynti",
+   "image": "assets/signs/F57.1.jpg",
+   "nameSv": "Riktning till nödutgång"
+  },
+  {
+   "code": "F57.2",
+   "category": "F",
+   "nameEn": "Direction to emergency exit",
+   "nameFi": "Hätäuloskäynti",
+   "image": "assets/signs/F57.2.jpg",
+   "nameSv": "Riktning till nödutgång"
+  },
+  {
+   "code": "G1",
+   "category": "G",
+   "nameEn": "Service information sign",
+   "nameFi": "Palvelukohteen opastustaulu",
+   "image": "assets/signs/G1.png",
+   "nameSv": "Informationstavla för serviceanläggning"
+  },
+  {
+   "code": "G2",
+   "category": "G",
+   "nameEn": "Service information sign",
+   "nameFi": "Palvelukohteen opastustaulu",
+   "image": "assets/signs/G2.png",
+   "nameSv": "Informationstavla för serviceanläggning"
+  },
+  {
+   "code": "G3",
+   "category": "G",
+   "nameEn": "Service exit direction sign",
+   "nameFi": "Palvelukohteen erkanemisviitta",
+   "image": "assets/signs/G3.png",
+   "nameSv": "Avfartsvisare för serviceanläggning"
+  },
+  {
+   "code": "G4",
+   "category": "G",
+   "nameEn": "Service address direction sign",
+   "nameFi": "Palvelukohteen osoiteviitta",
+   "image": "assets/signs/G4.png",
+   "nameSv": "Adressvägvisare till serviceanläggning"
+  },
+  {
+   "code": "G5",
+   "category": "G",
+   "nameEn": "Advance sign for service address direction sign",
+   "nameFi": "Palvelukohteen osoiteviitan ennakkomerkki",
+   "image": "assets/signs/G5.png",
+   "nameSv": "Förhandsmärke för adressvägvisare till serviceanläggning"
+  },
+  {
+   "code": "G6",
+   "category": "G",
+   "nameEn": "Radio station (frequency in MHz)",
+   "nameFi": "Radioaseman taajuus",
+   "image": "assets/signs/G6.svg",
+   "nameSv": "Frekvensen för en radiostation"
+  },
+  {
+   "code": "G7",
+   "category": "G",
+   "nameEn": "Information point",
+   "nameFi": "Opastuspiste",
+   "image": "assets/signs/G7.svg",
+   "nameSv": "Informationsställe"
+  },
+  {
+   "code": "G8",
+   "category": "G",
+   "nameEn": "Information centre",
+   "nameFi": "Opastustoimisto",
+   "image": "assets/signs/G8.svg",
+   "nameSv": "Informationsbyrå"
+  },
+  {
+   "code": "G9",
+   "category": "G",
+   "nameEn": "First-aid",
+   "nameFi": "Ensiapu",
+   "image": "assets/signs/G9.svg",
+   "nameSv": "Första hjälpen"
+  },
+  {
+   "code": "G10",
+   "category": "G",
+   "nameEn": "Breakdown service",
+   "nameFi": "Autokorjaamo",
+   "image": "assets/signs/G10.svg",
+   "nameSv": "Bilverkstad"
+  },
+  {
+   "code": "G11.1",
+   "category": "G",
+   "nameEn": "Gasoline station",
+   "nameFi": "Polttoaineen jakelu",
+   "image": "assets/signs/G11.1.svg",
+   "nameSv": "Bränsledistribution"
+  },
+  {
+   "code": "G11.2",
+   "category": "G",
+   "nameEn": "Gasoline station (with compressed natural gas)",
+   "nameFi": "Polttoaineen jakelu",
+   "image": "assets/signs/G11.2.svg",
+   "nameSv": "Bränsledistribution (naturgas)"
+  },
+  {
+   "code": "G11.3",
+   "category": "G",
+   "nameEn": "Electric vehicle charging station",
+   "nameFi": "Polttoaineen jakelu",
+   "image": "assets/signs/G11.3.svg",
+   "nameSv": "Laddningsstation för elbilar"
+  },
+  {
+   "code": "G11.4",
+   "category": "G",
+   "nameEn": "Petrol station (with hydrogen)",
+   "nameFi": "Polttoaineen jakelu",
+   "image": "assets/signs/G11.4.svg",
+   "nameSv": "Bränsledistribution (väte)"
+  },
+  {
+   "code": "G12",
+   "category": "G",
+   "nameEn": "Hotel or motel",
+   "nameFi": "Hotelli tai motelli",
+   "image": "assets/signs/G12.svg",
+   "nameSv": "Hotell eller motell"
+  },
+  {
+   "code": "G13",
+   "category": "G",
+   "nameEn": "Restaurant",
+   "nameFi": "Ruokailupaikka",
+   "image": "assets/signs/G13.svg",
+   "nameSv": "Matservering"
+  },
+  {
+   "code": "G14",
+   "category": "G",
+   "nameEn": "Cafeteria or refreshments",
+   "nameFi": "Kahvila tai pikaruokapaikka",
+   "image": "assets/signs/G14.svg",
+   "nameSv": "Kafé eller snabbmatställe"
+  },
+  {
+   "code": "G15",
+   "category": "G",
+   "nameEn": "Public lavatory",
+   "nameFi": "Käymälä",
+   "image": "assets/signs/G15.svg",
+   "nameSv": "Toalett"
+  },
+  {
+   "code": "G16",
+   "category": "G",
+   "nameEn": "Youth hostel",
+   "nameFi": "Retkeilymaja",
+   "image": "assets/signs/G16.svg",
+   "nameSv": "Vandrarhem"
+  },
+  {
+   "code": "G17",
+   "category": "G",
+   "nameEn": "Camping site",
+   "nameFi": "Leirintäalue",
+   "image": "assets/signs/G17.svg",
+   "nameSv": "Campingplats"
+  },
+  {
+   "code": "G18",
+   "category": "G",
+   "nameEn": "Caravan site",
+   "nameFi": "Matkailuajoneuvoalue",
+   "image": "assets/signs/G18.svg",
+   "nameSv": "Plats för husvagnar"
+  },
+  {
+   "code": "G19",
+   "category": "G",
+   "nameEn": "Picnic site",
+   "nameFi": "Levähdysalue",
+   "image": "assets/signs/G19.svg",
+   "nameSv": "Rastplats"
+  },
+  {
+   "code": "G20",
+   "category": "G",
+   "nameEn": "Recreational area",
+   "nameFi": "Ulkoilualue",
+   "image": "assets/signs/G20.svg",
+   "nameSv": "Friluftsområde"
+  },
+  {
+   "code": "G21",
+   "category": "G",
+   "nameEn": "Emergency telephone",
+   "nameFi": "Hätäpuhelin",
+   "image": "assets/signs/G21.svg",
+   "nameSv": "Nödtelefon"
+  },
+  {
+   "code": "G22",
+   "category": "G",
+   "nameEn": "Extinguisher",
+   "nameFi": "Sammutin",
+   "image": "assets/signs/G22.svg",
+   "nameSv": "Brandsläckare"
+  },
+  {
+   "code": "G23",
+   "category": "G",
+   "nameEn": "Museum or historic building",
+   "nameFi": "Museo tai historiallinen rakennus",
+   "image": "assets/signs/G23.svg",
+   "nameSv": "Museum eller historisk byggnad"
+  },
+  {
+   "code": "G24",
+   "category": "G",
+   "nameEn": "World Heritage Site",
+   "nameFi": "Maailmanperintökohde",
+   "image": "assets/signs/G24.svg",
+   "nameSv": "Världsarvsobjekt"
+  },
+  {
+   "code": "G25",
+   "category": "G",
+   "nameEn": "Nature site",
+   "nameFi": "Luontokohde",
+   "image": "assets/signs/G25.svg",
+   "nameSv": "Naturobjekt"
+  },
+  {
+   "code": "G26",
+   "category": "G",
+   "nameEn": "Viewpoint",
+   "nameFi": "Näköalapaikka",
+   "image": "assets/signs/G26.svg",
+   "nameSv": "Utsiktsplats"
+  },
+  {
+   "code": "G27",
+   "category": "G",
+   "nameEn": "Zoo",
+   "nameFi": "Eläintarha tai -puisto",
+   "image": "assets/signs/G27.svg",
+   "nameSv": "Djurpark eller djurgård"
+  },
+  {
+   "code": "G28",
+   "category": "G",
+   "nameEn": "Other tourist attraction",
+   "nameFi": "Muu nähtävyys",
+   "image": "assets/signs/G28.svg",
+   "nameSv": "Annan sevärdhet"
+  },
+  {
+   "code": "G29",
+   "category": "G",
+   "nameEn": "Swimming place",
+   "nameFi": "Uintipaikka",
+   "image": "assets/signs/G29.svg",
+   "nameSv": "Badplats"
+  },
+  {
+   "code": "G30",
+   "category": "G",
+   "nameEn": "Fishing place",
+   "nameFi": "Kalastuspaikka",
+   "image": "assets/signs/G30.svg",
+   "nameSv": "Fiskeplats"
+  },
+  {
+   "code": "G31",
+   "category": "G",
+   "nameEn": "Ski lift",
+   "nameFi": "Hiihtohissi",
+   "image": "assets/signs/G31.svg",
+   "nameSv": "Skidlift"
+  },
+  {
+   "code": "G32",
+   "category": "G",
+   "nameEn": "Cross-country skiing centre",
+   "nameFi": "Maastohiihtokeskus",
+   "image": "assets/signs/G32.svg",
+   "nameSv": "Skidspår"
+  },
+  {
+   "code": "G33",
+   "category": "G",
+   "nameEn": "Golf course",
+   "nameFi": "Golfkenttä",
+   "image": "assets/signs/G33.svg",
+   "nameSv": "Golfbana"
+  },
+  {
+   "code": "G34",
+   "category": "G",
+   "nameEn": "Pleasure or theme park",
+   "nameFi": "Huvi- ja teemapuisto",
+   "image": "assets/signs/G34.svg",
+   "nameSv": "Nöjes- eller temapark"
+  },
+  {
+   "code": "G35",
+   "category": "G",
+   "nameEn": "Cottage accommodation",
+   "nameFi": "Mökkimajoitus",
+   "image": "assets/signs/G35.svg",
+   "nameSv": "Stuginkvartering"
+  },
+  {
+   "code": "G36",
+   "category": "G",
+   "nameEn": "Bed and breakfast",
+   "nameFi": "Aamiaismajoitus",
+   "image": "assets/signs/G36.svg",
+   "nameSv": "Rum och frukost"
+  },
+  {
+   "code": "G37",
+   "category": "G",
+   "nameEn": "Direct sale",
+   "nameFi": "Suoramyyntipaikka",
+   "image": "assets/signs/G37.svg",
+   "nameSv": "Direktförsäljning"
+  },
+  {
+   "code": "G38",
+   "category": "G",
+   "nameEn": "Handicrafts",
+   "nameFi": "Käsityöpaja",
+   "image": "assets/signs/G38.svg",
+   "nameSv": "Hantverkarverkstad"
+  },
+  {
+   "code": "G39",
+   "category": "G",
+   "nameEn": "Farm park",
+   "nameFi": "Kotieläinpiha",
+   "image": "assets/signs/G39.svg",
+   "nameSv": "Husdjursgård"
+  },
+  {
+   "code": "G40",
+   "category": "G",
+   "nameEn": "Horseback riding",
+   "nameFi": "Ratsastuspaikka",
+   "image": "assets/signs/G40.svg",
+   "nameSv": "Ridplats"
+  },
+  {
+   "code": "G41.1",
+   "category": "G",
+   "nameEn": "Tourist route",
+   "nameFi": "Matkailutie",
+   "image": "assets/signs/G41.1.svg",
+   "nameSv": "Turistväg"
+  },
+  {
+   "code": "G41.2",
+   "category": "G",
+   "nameEn": "Tourist route",
+   "nameFi": "Matkailutie",
+   "image": "assets/signs/G41.2.svg",
+   "nameSv": "Turistväg"
+  },
+  {
+   "code": "G42",
+   "category": "G",
+   "nameEn": "Temporary guide sign",
+   "nameFi": "Tilapäinen opastusmerkki",
+   "image": "assets/signs/G42.jpg",
+   "nameSv": "Tillfälligt vägvisningsmärke"
+  },
+  {
+   "code": "H1",
+   "category": "H",
+   "nameEn": "Sign applies to crossing road",
+   "nameFi": "Kohde risteävässä suunnassa",
+   "image": "assets/signs/H1.svg",
+   "nameSv": "Objekt i korsande riktning"
+  },
+  {
+   "code": "H2.1",
+   "category": "H",
+   "nameEn": "Sign applies in the direction of the arrow",
+   "nameFi": "Kohde nuolen suunnassa",
+   "image": "assets/signs/H2.1.svg",
+   "nameSv": "Objekt i pilens riktning"
+  },
+  {
+   "code": "H2.2",
+   "category": "H",
+   "nameEn": "Sign applies [...] km in the direction of the arrow",
+   "nameFi": "Kohde nuolen suunnassa",
+   "image": "assets/signs/H2.2.svg",
+   "nameSv": "Objekt i pilens riktning"
+  },
+  {
+   "code": "H2.3",
+   "category": "H",
+   "nameEn": "Sign applies [...] km in the direction of the arrow",
+   "nameFi": "Kohde nuolen suunnassa",
+   "image": "assets/signs/H2.3.svg",
+   "nameSv": "Objekt i pilens riktning"
+  },
+  {
+   "code": "H3",
+   "category": "H",
+   "nameEn": "Distance to which the sign applies",
+   "nameFi": "Vaikutusalueen pituus",
+   "image": "assets/signs/H3.svg",
+   "nameSv": "Verkningsområdets längd"
+  },
+  {
+   "code": "H4",
+   "category": "H",
+   "nameEn": "Distance from the sign to the point to which the sign applies",
+   "nameFi": "Etäisyys kohteeseen",
+   "image": "assets/signs/H4.svg",
+   "nameSv": "Avstånd till objekt"
+  },
+  {
+   "code": "H5",
+   "category": "H",
+   "nameEn": "Distance to the compulsory stop",
+   "nameFi": "Etäisyys pakolliseen pysäyttämiseen",
+   "image": "assets/signs/H5.svg",
+   "nameSv": "Avstånd till märke för obligatoriskt stannande"
+  },
+  {
+   "code": "H6",
+   "category": "H",
+   "nameEn": "Free width",
+   "nameFi": "Vapaa leveys",
+   "image": "assets/signs/H6.svg",
+   "nameSv": "Fri bredd"
+  },
+  {
+   "code": "H7",
+   "category": "H",
+   "nameEn": "Free height",
+   "nameFi": "Vapaa korkeus",
+   "image": "assets/signs/H7.svg",
+   "nameSv": "Fri höjd"
+  },
+  {
+   "code": "H8",
+   "category": "H",
+   "nameEn": "Height of electric line",
+   "nameFi": "Sähköjohdon korkeus",
+   "image": "assets/signs/H8.svg",
+   "nameSv": "Ellednings höjd"
+  },
+  {
+   "code": "H9.1",
+   "category": "H",
+   "nameEn": "Sign applies to both directions",
+   "nameFi": "Vaikutusalue molempiin suuntiin",
+   "image": "assets/signs/H9.1.svg",
+   "nameSv": "Verkningsområde i vardera riktningen"
+  },
+  {
+   "code": "H9.2",
+   "category": "H",
+   "nameEn": "Sign applies to both directions",
+   "nameFi": "Vaikutusalue molempiin suuntiin",
+   "image": "assets/signs/H9.2.svg",
+   "nameSv": "Verkningsområde i vardera riktningen"
+  },
+  {
+   "code": "H10",
+   "category": "H",
+   "nameEn": "Sign applies in the direction of the arrow",
+   "nameFi": "Vaikutusalue nuolen suuntaan",
+   "image": "assets/signs/H10.svg",
+   "nameSv": "Verkningsområde i pilens riktning"
+  },
+  {
+   "code": "H11",
+   "category": "H",
+   "nameEn": "Regulation ends at the sign",
+   "nameFi": "Vaikutusalue päättyy",
+   "image": "assets/signs/H11.svg",
+   "nameSv": "Verkningsområde upphör"
+  },
+  {
+   "code": "H12.1",
+   "category": "H",
+   "nameEn": "Private vehicle",
+   "nameFi": "Henkilöauto",
+   "image": "assets/signs/H12.1.svg",
+   "nameSv": "Personbil"
+  },
+  {
+   "code": "H12.2",
+   "category": "H",
+   "nameEn": "Bus",
+   "nameFi": "Linja-auto",
+   "image": "assets/signs/H12.2.svg",
+   "nameSv": "Buss"
+  },
+  {
+   "code": "H12.3",
+   "category": "H",
+   "nameEn": "Truck",
+   "nameFi": "Kuorma-auto",
+   "image": "assets/signs/H12.3.svg",
+   "nameSv": "Lastbil"
+  },
+  {
+   "code": "H12.4",
+   "category": "H",
+   "nameEn": "Delivery van",
+   "nameFi": "Pakettiauto",
+   "image": "assets/signs/H12.4.svg",
+   "nameSv": "Paketbil"
+  },
+  {
+   "code": "H12.5",
+   "category": "H",
+   "nameEn": "Caravan",
+   "nameFi": "Matkailuperävaunu",
+   "image": "assets/signs/H12.5.svg",
+   "nameSv": "Husvagn"
+  },
+  {
+   "code": "H12.6",
+   "category": "H",
+   "nameEn": "Camper van",
+   "nameFi": "Matkailuauto",
+   "image": "assets/signs/H12.6.svg",
+   "nameSv": "Husbil"
+  },
+  {
+   "code": "H12.7",
+   "category": "H",
+   "nameEn": "Vehicle for handicapped",
+   "nameFi": "Invalidin ajoneuvo",
+   "image": "assets/signs/H12.7.svg",
+   "nameSv": "Invalidfordon"
+  },
+  {
+   "code": "H12.8",
+   "category": "H",
+   "nameEn": "Motorcycle",
+   "nameFi": "Moottoripyörä",
+   "image": "assets/signs/H12.8.svg",
+   "nameSv": "Motorcykel"
+  },
+  {
+   "code": "H12.9",
+   "category": "H",
+   "nameEn": "Moped",
+   "nameFi": "Mopo",
+   "image": "assets/signs/H12.9.svg",
+   "nameSv": "Moped"
+  },
+  {
+   "code": "H12.10",
+   "category": "H",
+   "nameEn": "Pedal cycle",
+   "nameFi": "Polkupyörä",
+   "image": "assets/signs/H12.10.svg",
+   "nameSv": "Cykel"
+  },
+  {
+   "code": "H12.11",
+   "category": "H",
+   "nameEn": "Snowmobiles",
+   "nameFi": "Moottorikelkka",
+   "image": "assets/signs/H12.11.svg",
+   "nameSv": "Snöskoter"
+  },
+  {
+   "code": "H12.12",
+   "category": "H",
+   "nameEn": "Tractors",
+   "nameFi": "Traktori",
+   "image": "assets/signs/H12.12.svg",
+   "nameSv": "Traktor"
+  },
+  {
+   "code": "H12.13",
+   "category": "H",
+   "nameEn": "Low-emission vehicles",
+   "nameFi": "Vähäpäästöinen ajoneuvo",
+   "image": "assets/signs/H12.13.svg",
+   "nameSv": "Lågemissionsfordon"
+  },
+  {
+   "code": "H12.14",
+   "category": "H",
+   "nameEn": "Light electric vehicle",
+   "nameFi": "Kevyt sähköajoneuvo",
+   "image": "assets/signs/H12.14.jpg",
+   "nameSv": "Lätt elfordon"
+  },
+  {
+   "code": "H13.1",
+   "category": "H",
+   "nameEn": "Method of parking",
+   "nameFi": "Pysäköintitapa",
+   "image": "assets/signs/H13.1.svg",
+   "nameSv": "Parkeringssätt"
+  },
+  {
+   "code": "H13.2",
+   "category": "H",
+   "nameEn": "Method of parking",
+   "nameFi": "Pysäköintitapa",
+   "image": "assets/signs/H13.2.svg",
+   "nameSv": "Parkeringssätt"
+  },
+  {
+   "code": "H14",
+   "category": "H",
+   "nameEn": "No entry for vehicles carrying dangerous goods of group A",
+   "nameFi": "Kielto ryhmän A vaarallisten aineiden kuljetukselle",
+   "image": "assets/signs/H14.svg",
+   "nameSv": "Förbjudet att transportera farliga ämnen i kategori A"
+  },
+  {
+   "code": "H15",
+   "category": "H",
+   "nameEn": "No entry for vehicles carrying dangerous goods of group B",
+   "nameFi": "Läpiajokielto ryhmän B vaarallisten aineiden kuljetukselle",
+   "image": "assets/signs/H15.svg",
+   "nameSv": "Förbjudet att transportera farliga ämnen i kategori B"
+  },
+  {
+   "code": "H16",
+   "category": "H",
+   "nameEn": "Tunnel class B",
+   "nameFi": "Tunneliluokka",
+   "image": "assets/signs/H16.svg",
+   "nameSv": "Tunnelklass"
+  },
+  {
+   "code": "H17.1",
+   "category": "H",
+   "nameEn": "Sign applies between 08.00 and 17.00 hours, Mo-Fr",
+   "nameFi": "Voimassaoloaika arkisin",
+   "image": "assets/signs/H17.1.svg",
+   "nameSv": "Giltighetstid vardagar må-fre"
+  },
+  {
+   "code": "H17.2",
+   "category": "H",
+   "nameEn": "Sign applies between 08.00 and 13.00 hours, on Saturdays",
+   "nameFi": "Voimassaoloaika lauantaisin",
+   "image": "assets/signs/H17.2.svg",
+   "nameSv": "Giltighetstid på vardagslördagar"
+  },
+  {
+   "code": "H17.3",
+   "category": "H",
+   "nameEn": "Sign applies between 08.00 and 14.00 hours, on Sundays and holidays",
+   "nameFi": "Voimassaoloaika sunnuntaisin ja pyhinä",
+   "image": "assets/signs/H17.3.svg",
+   "nameSv": "Giltighetstid på söndagar och andra helgdagar"
+  },
+  {
+   "code": "H18",
+   "category": "H",
+   "nameEn": "Time limit",
+   "nameFi": "Aikarajoitus",
+   "image": "assets/signs/H18.svg",
+   "nameSv": "Tidsbegränsning"
+  },
+  {
+   "code": "H19.1",
+   "category": "H",
+   "nameEn": "Obligatory use of parking disc",
+   "nameFi": "Pysäköintiajan alkamisen osoittamisvelvollisuus",
+   "image": "assets/signs/H19.1.svg",
+   "nameSv": "Skyldighet att visa när parkeringstiden börjar"
+  },
+  {
+   "code": "H19.2",
+   "category": "H",
+   "nameEn": "Obligation to display parking start time",
+   "nameFi": "Pysäköintiajan alkamisen osoittamisvelvollisuus",
+   "image": "assets/signs/H19.2.svg",
+   "nameSv": "Skyldighet att visa när parkeringstiden börjar"
+  },
+  {
+   "code": "H20",
+   "category": "H",
+   "nameEn": "Parking against fee",
+   "nameFi": "Maksullinen pysäköinti",
+   "image": "assets/signs/H20.svg",
+   "nameSv": "Parkering mot avgift"
+  },
+  {
+   "code": "H21",
+   "category": "H",
+   "nameEn": "Charging space for electric vehicles",
+   "nameFi": "Latauspaikka",
+   "image": "assets/signs/H21.svg",
+   "nameSv": "Laddplats för elfordon"
+  },
+  {
+   "code": "H22.1",
+   "category": "H",
+   "nameEn": "Direction of priority road",
+   "nameFi": "Etuajo-oikeutetun liikenteen suunta",
+   "image": "assets/signs/H22.1.svg",
+   "nameSv": "Riktning för trafik med förkörsrätt"
+  },
+  {
+   "code": "H22.2",
+   "category": "H",
+   "nameEn": "Direction of priority road",
+   "nameFi": "Etuajo-oikeutetun liikenteen suunta",
+   "image": "assets/signs/H22.2.svg",
+   "nameSv": "Riktning för trafik med förkörsrätt"
+  },
+  {
+   "code": "H23.1",
+   "category": "H",
+   "nameEn": "Two-way cycle track",
+   "nameFi": "Kaksisuuntainen pyörätie",
+   "image": "assets/signs/H23.1.svg",
+   "nameSv": "Dubbelriktad cykelbana"
+  },
+  {
+   "code": "H23.2",
+   "category": "H",
+   "nameEn": "Two-way path",
+   "nameFi": "Kaksisuuntainen pyörätie",
+   "image": "assets/signs/H23.2.svg",
+   "nameSv": "Dubbelriktad cykelbana"
+  },
+  {
+   "code": "H24",
+   "category": "H",
+   "nameEn": "Additional panel with text \"Occasionally foggy\"",
+   "nameFi": "Tekstillinen lisäkilpi",
+   "image": "assets/signs/H24.svg",
+   "nameSv": "Tilläggskylt med text"
+  },
+  {
+   "code": "H25",
+   "category": "H",
+   "nameEn": "Additional panel with text \"Driving in service purposes allowed\"",
+   "nameFi": "Huoltoajo sallittu",
+   "image": "assets/signs/H25.svg",
+   "nameSv": "Tilläggskylt med text (servicekörning tillåten)"
+  },
+  {
+   "code": "H26",
+   "category": "H",
+   "nameEn": "Emergency telephone and extinguisher",
+   "nameFi": "Hätäpuhelin ja sammutin",
+   "image": "assets/signs/H26.svg",
+   "nameSv": "Nödtelefon och brandsläckare"
+  },
+  {
+   "code": "H27",
+   "category": "H",
+   "nameEn": "Sidewalk crossing",
+   "nameFi": "Ylijatkettu jalkakäytävä",
+   "image": "assets/signs/H27.jpg",
+   "nameSv": "Genomgående gångbana"
+  },
+  {
+   "code": "I2.1",
+   "category": "I",
+   "nameEn": "Fence barrier",
+   "nameFi": "Sulkuaita",
+   "image": "assets/signs/I2.1.jpg",
+   "nameSv": "Avstängningsstaket"
+  },
+  {
+   "code": "I2.2",
+   "category": "I",
+   "nameEn": "Fence barrier",
+   "nameFi": "Sulkuaita",
+   "image": "assets/signs/I2.2.jpg",
+   "nameSv": "Avstängningsstaket"
+  },
+  {
+   "code": "I3.1",
+   "category": "I",
+   "nameEn": "Column barrier",
+   "nameFi": "Sulkupylväs",
+   "image": "assets/signs/I3.1.jpg",
+   "nameSv": "Avstängningsstolpe"
+  },
+  {
+   "code": "I3.2",
+   "category": "I",
+   "nameEn": "Column barrier",
+   "nameFi": "Sulkupylväs",
+   "image": "assets/signs/I3.2.jpg",
+   "nameSv": "Avstängningsstolpe"
+  },
+  {
+   "code": "I3.3",
+   "category": "I",
+   "nameEn": "Column barrier",
+   "nameFi": "Sulkupylväs",
+   "image": "assets/signs/I3.3.jpg",
+   "nameSv": "Avstängningsstolpe"
+  },
+  {
+   "code": "I4",
+   "category": "I",
+   "nameEn": "Cone barrier",
+   "nameFi": "Sulkukartio",
+   "image": "assets/signs/I4.jpg",
+   "nameSv": "Avstängningskon"
+  },
+  {
+   "code": "I5",
+   "category": "I",
+   "nameEn": "Background sign",
+   "nameFi": "Taustamerkki",
+   "image": "assets/signs/I5.jpg",
+   "nameSv": "Bakgrundsmärke"
+  },
+  {
+   "code": "I6",
+   "category": "I",
+   "nameEn": "Curve direction sign",
+   "nameFi": "Kaarteen suuntamerkki",
+   "image": "assets/signs/I6.jpg",
+   "nameSv": "Riktningsmärke i kurva"
+  },
+  {
+   "code": "I7.1",
+   "category": "I",
+   "nameEn": "Edge sign",
+   "nameFi": "Reunamerkki",
+   "image": "assets/signs/I7.1.jpg",
+   "nameSv": "Kantmärke"
+  },
+  {
+   "code": "I7.2",
+   "category": "I",
+   "nameEn": "Edge sign",
+   "nameFi": "Reunamerkki",
+   "image": "assets/signs/I7.2.jpg",
+   "nameSv": "Kantmärke"
+  },
+  {
+   "code": "I8",
+   "category": "I",
+   "nameEn": "Height sign",
+   "nameFi": "Korkeusmerkki, normaali koko",
+   "image": "assets/signs/I8.jpg",
+   "nameSv": "Höjdmärke"
+  },
+  {
+   "code": "I9",
+   "category": "I",
+   "nameEn": "Underpass height measurement",
+   "nameFi": "Alikulun korkeusmitta",
+   "image": "assets/signs/I9.jpg",
+   "nameSv": "Höjdmått för underfart"
+  },
+  {
+   "code": "I10.1",
+   "category": "I",
+   "nameEn": "Road sign post visibility enhancer",
+   "nameFi": "Liikennemerkkipylvään havaittavuuden tehostaminen",
+   "image": "assets/signs/I10.1.jpg",
+   "nameSv": "Effektmärke för vägmärkesstolpe"
+  },
+  {
+   "code": "I10.2",
+   "category": "I",
+   "nameEn": "Road sign post visibility enhancer",
+   "nameFi": "Liikennemerkkipylvään havaittavuuden tehostaminen",
+   "image": "assets/signs/I10.2.jpg",
+   "nameSv": "Effektmärke för vägmärkesstolpe"
+  },
+  {
+   "code": "I11",
+   "category": "I",
+   "nameEn": "Leaving road sign",
+   "nameFi": "Erkanemismerkki",
+   "image": "assets/signs/I11.jpg",
+   "nameSv": "Avfartsmärke"
+  },
+  {
+   "code": "I12.1",
+   "category": "I",
+   "nameEn": "Edge column",
+   "nameFi": "Reunapaalu",
+   "image": "assets/signs/I12.1.jpg",
+   "nameSv": "Kantstolpe"
+  },
+  {
+   "code": "I12.2",
+   "category": "I",
+   "nameEn": "Edge column",
+   "nameFi": "Reunapaalu",
+   "image": "assets/signs/I12.2.jpg",
+   "nameSv": "Kantstolpe"
+  },
+  {
+   "code": "I13",
+   "category": "I",
+   "nameEn": "Request to remove vehicles",
+   "nameFi": "Siirtokehotus",
+   "image": "assets/signs/I13.jpg",
+   "nameSv": "Uppmaning att flytta fordon"
+  },
+  {
+   "code": "I14",
+   "category": "I",
+   "nameEn": "Location sign",
+   "nameFi": "Paikannusmerkki",
+   "image": "assets/signs/I14.jpg",
+   "nameSv": "Lokaliseringsmärke"
+  },
+  {
+   "code": "I15",
+   "category": "I",
+   "nameEn": "Automatic traffic control",
+   "nameFi": "Automaattinen liikennevalvonta",
+   "image": "assets/signs/I15.jpg",
+   "nameSv": "Automatisk trafikövervakning"
+  },
+  {
+   "code": "I16",
+   "category": "I",
+   "nameEn": "Technological supervision",
+   "nameFi": "Tekninen valvonta",
+   "image": "assets/signs/I16.jpg",
+   "nameSv": "Teknisk övervakning"
+  },
+  {
+   "code": "I17.1",
+   "category": "I",
+   "nameEn": "Area of reindeer husbandry",
+   "nameFi": "Poronhoitoalue",
+   "image": "assets/signs/I17.1.jpg",
+   "nameSv": "Renskötselområde"
+  },
+  {
+   "code": "I17.2",
+   "category": "I",
+   "nameEn": "Area of reindeer husbandry",
+   "nameFi": "Poronhoitoalue",
+   "image": "assets/signs/I17.2.jpg",
+   "nameSv": "Renskötselområde"
+  },
+  {
+   "code": "I18",
+   "category": "I",
+   "nameEn": "General speed limit",
+   "nameFi": "Yleinen nopeusrajoitus",
+   "image": "assets/signs/I18.jpg",
+   "nameSv": "Allmän hastighetsbegränsning"
+  },
+  {
+   "code": "I19",
+   "category": "I",
+   "nameEn": "National border",
+   "nameFi": "Valtion raja",
+   "image": "assets/signs/I19.jpg",
+   "nameSv": "Riksgräns"
+  }
+ ]
+}
