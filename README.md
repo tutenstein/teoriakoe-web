@@ -13,7 +13,7 @@ Site language is Finnish; `/en/` (English) and `/sv/` (Swedish) come in stage 2.
 | Firebase project | `teoriakoe-web` (Hosting only, Spark plan) |
 | GitHub repo | `tutenstein/teoriakoe-web`, private |
 | Contact email | `metinozetle@gmail.com` (same as the current support page) |
-| Publisher on `/tietoa/` | **TODO** – owner's name as shown as the App Store seller. Until then the site says "itsenäinen kehittäjä". |
+| Publisher / data controller | Salih Enes Metin, as already named in the app's published privacy policy (`publisher` in `site.config.js`) |
 | App Store link | Plain store link. **TODO** – replace with the App Store Connect campaign link (`ct=web_teoriakoefi`) in `site.config.js`. |
 | Video | None yet. **TODO** – unlisted YouTube id goes to `youtubeId` in `site.config.js`. |
 | Swedish | Stage 2 |
@@ -91,6 +91,11 @@ In Markdown, `[C38](merkki:C38)` links to a sign page. A paragraph that holds on
 places an ad slot; `{{quiz}}`, `{{search}}`, `{{groups}}` and `{{signs}}` place page components.
 A section titled `## Usein kysytyt kysymykset` with `###` questions becomes an accordion and
 `FAQPage` JSON-LD.
+
+Test providers change on 1.1.2027: until the end of 2026 Ajovarma runs all theory and driving
+tests; from 2027 Traficom's providers differ by town (DEKRA Katsastus, CityKuljettajat, and
+Ajovarma for driving tests in Espoo and Helsinki). Pages therefore point readers to Traficom's
+list of service locations instead of naming one provider. Review `/teoriakoe/` pages in January 2027.
 
 Facts about the driving licence, the theory test, prices and age limits come only from
 traficom.fi, ajovarma.fi and Finlex, and every article lists its sources. Prices always carry
