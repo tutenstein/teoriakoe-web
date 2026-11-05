@@ -163,8 +163,9 @@ async function main() {
   }
 
   // Banned names anywhere in the sources or output, including file names.
-  for (const dir of ['content', 'templates', 'src', 'scripts', 'static', 'data', 'dist']) {
-    for (const file of await walk(path.join(root, dir), () => true)) {
+  const scanDirs = ['content', 'templates', 'src', 'scripts', 'static', 'data'].map((d) => path.join(root, d)).concat(dist);
+  for (const dir of scanDirs) {
+    for (const file of await walk(dir, () => true)) {
       const rel = path.relative(root, file);
       if (BANNED.test(rel)) err(rel, 'banned name in file name');
       if (/\.(md|js|json|css|html|xml|txt|svg)$/.test(file) && BANNED.test(await fs.readFile(file, 'utf8'))) {
