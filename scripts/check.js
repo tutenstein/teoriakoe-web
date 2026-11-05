@@ -53,6 +53,8 @@ function uniqueText(html) {
     main
       .replace(/<aside[^>]*data-shared[^>]*>[\s\S]*?<\/aside>/g, ' ')
       .replace(/<div[^>]*data-shared[^>]*>[\s\S]*?<\/div>/g, ' ')
+      .replace(/<p[^>]*data-shared[^>]*>[\s\S]*?<\/p>/g, ' ')
+      .replace(/<table class="compare"[\s\S]*?<\/table>/g, ' ')
       .replace(/<nav[\s\S]*?<\/nav>/g, ' ')
       .replace(/<h[1-6][^>]*>[\s\S]*?<\/h[1-6]>/g, ' ')
       .replace(/<section class="sources"[\s\S]*?<\/section>/g, ' ')

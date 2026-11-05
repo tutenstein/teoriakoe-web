@@ -50,7 +50,13 @@ http
     }
     const status = found ? 200 : 404;
     found ||= path.join(dist, '404.html');
-    res.writeHead(status, { 'Content-Type': TYPES[path.extname(found)] || 'application/octet-stream' });
-    res.end(await fs.readFile(found));
+    try {
+      const body = await fs.readFile(found);
+      res.writeHead(status, { 'Content-Type': TYPES[path.extname(found)] || 'application/octet-stream' });
+      res.end(body);
+    } catch {
+      // dist/ is being rebuilt.
+      res.writeHead(503, { 'Content-Type': 'text/plain; charset=utf-8', 'Retry-After': '2' }).end('Building, reload in a moment.');
+    }
   })
   .listen(port, () => console.log(`Serving dist/ at http://localhost:${port}`));

@@ -92,3 +92,43 @@ export function sources(list, updated) {
 export function notice(html) {
   return `<div class="notice" data-shared><p>${html}</p></div>`;
 }
+
+const SCREENS = [
+  ['01_home', 'Sovelluksen etusivu: harjoituskoe, pikatesti ja Pelaa ja opi'],
+  ['02_mock_exam', 'Harjoituskoe, jossa kolme osiota ja yhteinen aika'],
+  ['03_play_learn', 'Pelaa ja opi -kaupunki ylhäältä kuvattuna'],
+  ['04_practice_explained', 'Harjoitustehtävä ja vastauksen selitys'],
+  ['05_road_signs', 'Liikennemerkit ryhmittäin ja haku'],
+  ['06_result', 'Harjoituskokeen tulos osioittain']
+];
+
+export function screenshots(ctx) {
+  const items = SCREENS.map(([name, alt]) => {
+    const set = [360, 540, 720].map((w) => `${ctx.urls.screens[`${name}-${w}`]} ${w}w`).join(', ');
+    return `<li><img src="${ctx.urls.screens[`${name}-360`]}" srcset="${set}" sizes="240px" width="360" height="640" alt="${esc(alt)}" loading="lazy" decoding="async"></li>`;
+  }).join('');
+  return `<ul class="shots" aria-label="Kuvia sovelluksesta">${items}</ul>`;
+}
+
+// Free vs Premium, worded after the store listing. Prices are never shown.
+const COMPARE = [
+  ['Kaikki 373 liikennemerkkiä ja merkkihaku', 'yes', 'yes'],
+  ['Teorian tiivistelmät, 14 aihetta', 'yes', 'yes'],
+  ['Perussääntöjen harjoittelu', 'yes', 'yes'],
+  ['Pikatesti (10 kysymystä)', '1 päivässä, lyhyillä mainoksilla jopa 3 lisää', 'yes'],
+  ['Harjoituspakka', '10 korttia', 'yes'],
+  ['Pelaa ja opi', '5 tilannetta päivässä, mainoksella 5 lisää', 'Koko kaupunki, 140 tilannetta'],
+  ['Harjoituskoe (70 tehtävää, 30 min)', 'no', 'yes'],
+  ['Kaikki 989 harjoitustehtävää', 'no', 'yes'],
+  ['Harjoittelu aiheittain ja merkkiryhmittäin', 'no', 'yes'],
+  ['Heikot kohdat', 'no', 'yes'],
+  ['Tarkka edistyminen', 'no', 'yes'],
+  ['Mainokset', 'Kyllä', 'Ei']
+];
+
+export function compareTable() {
+  const cell = (v) => (v === 'yes' ? '<td class="yes">✓<span class="visually-hidden"> sisältyy</span></td>' : v === 'no' ? '<td class="no">–<span class="visually-hidden"> ei sisälly</span></td>' : `<td>${esc(v)}</td>`);
+  const rows = COMPARE.map(([label, free, premium]) => `<tr><th scope="row">${esc(label)}</th>${cell(free)}${cell(premium)}</tr>`).join('');
+  return `<div class="table-scroll" data-shared><table class="compare"><caption class="visually-hidden">Ilmaisversion ja Premiumin sisältö</caption><thead><tr><th scope="col">Ominaisuus</th><th scope="col">Ilmainen</th><th scope="col">Premium</th></tr></thead><tbody>${rows}</tbody></table></div>
+<p class="meta" data-shared>Premium on viikko- tai kuukausitilaus, ja hinta näkyy sovelluksessa. Tilaus uusiutuu automaattisesti, kunnes perut sen App Storen tai Google Playn tililläsi.</p>`;
+}

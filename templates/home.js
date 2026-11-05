@@ -1,6 +1,6 @@
 // Home page. Numbers come from the store listing and stay in sync with it.
 import { esc } from '../scripts/lib/text.js';
-import { adSlot, notice, storeLinks, DISCLAIMER } from './components.js';
+import { adSlot, compareTable, notice, screenshots, storeLinks, DISCLAIMER } from './components.js';
 
 const FEATURES = [
   ['Harjoituskoe', '70 tehtävää kolmessa osiossa ja yhteinen 30 minuutin aika koerakenteen mukaisesti. Jokainen osio hyväksytään tai hylätään erikseen, ja lopuksi käyt vastaukset läpi.'],
@@ -46,6 +46,19 @@ export function homeRoute(page, ctx) {
 <div class="wrap">
 <h2>Mitä sovelluksessa on</h2>
 <ul class="features">${features}</ul>
+</div>
+</section>
+<section class="section section-muted">
+<div class="wrap">
+<h2>Kuvia sovelluksesta</h2>
+${screenshots(ctx)}
+</div>
+</section>
+<section class="section">
+<div class="wrap prose">
+<h2 id="ilmainen-ja-premium">Ilmainen ja Premium</h2>
+<p>Sovelluksen lataaminen on ilmaista, ja ilmaisversiossa pääset harjoittelemaan heti. Premium avaa harjoituskokeen ja kaikki tehtävät.</p>
+${compareTable()}
 </div>
 </section>
 ${links ? `<section class="section section-muted"><div class="wrap"><h2>Opiskele myös täällä</h2><ul class="features">${links}</ul></div></section>` : ''}

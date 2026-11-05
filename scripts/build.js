@@ -7,7 +7,7 @@ import config from '../site.config.js';
 import { Assets } from './lib/assets.js';
 import { parseFrontmatter } from './lib/frontmatter.js';
 import { createMarkdown } from './lib/markdown.js';
-import { adSlot } from '../templates/components.js';
+import { adSlot, compareTable, screenshots } from '../templates/components.js';
 import { layout } from '../templates/layout.js';
 import { prepareSigns, signRoute, groupRoute, hubRoute, HUB_URL } from '../templates/signs.js';
 import { pageRoute } from '../templates/page.js';
@@ -215,7 +215,8 @@ async function main() {
     routes: known,
     signData,
     year: new Date().getFullYear(),
-    markdown: (body, shortcodes = {}) => render(body, { ad: () => adSlot('inline'), ...shortcodes }),
+    markdown: (body, shortcodes = {}) =>
+      render(body, { ad: () => adSlot('inline'), compare: () => compareTable(), screens: () => screenshots(ctx), ...shortcodes }),
     crumbsFor(url, name) {
       const crumbs = [{ name: 'Etusivu', url: '/' }];
       const parts = url.split('/').filter(Boolean);

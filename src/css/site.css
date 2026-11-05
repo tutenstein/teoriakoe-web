@@ -249,7 +249,7 @@ main { display: block; padding-bottom: 48px; }
 .prose table { width: 100%; border-collapse: collapse; font-size: 0.97rem; }
 .prose th, .prose td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
 .prose th { font-weight: 600; }
-.table-scroll { overflow-x: auto; margin-bottom: 1em; }
+.table-scroll { position: relative; overflow-x: auto; margin-bottom: 1em; }
 .table-scroll table { margin: 0; min-width: 32rem; }
 
 .section { padding: 32px 0; }
@@ -569,4 +569,10 @@ main { display: block; padding-bottom: 48px; }
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
+}
+
+@media (max-width: 599px) {
+  .compare { min-width: 0 !important; font-size: 0.9rem; }
+  .compare th, .compare td { padding: 8px 4px; }
+  .compare th:first-child { width: 40%; }
 }
