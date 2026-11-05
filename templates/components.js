@@ -28,7 +28,7 @@ export function storeLinks(ctx, url) {
   const link = (href, badge, label, text) =>
     badge
       ? `<a class="store-badge" href="${esc(href)}" rel="noopener"><img src="${badge.src}" width="${badge.width}" height="${badge.height}" alt="${label}"></a>`
-      : `<a class="btn btn-ghost" href="${esc(href)}" rel="noopener" aria-label="${label}">${text}</a>`;
+      : `<a class="btn btn-ghost" href="${esc(href)}" rel="noopener"><span class="visually-hidden">Lataa sovellus: </span>${text}</a>`;
   return `<div class="stores">${link(apple, appStore, 'Lataa App Storesta', 'App Store')}${link(play, googlePlay, 'Hanki se Google Playsta', 'Google Play')}</div>`;
 }
 
