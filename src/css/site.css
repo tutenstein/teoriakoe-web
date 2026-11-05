@@ -313,7 +313,9 @@ main { display: block; padding-bottom: 48px; }
 
 .stores { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 0 0 1em; }
 .store-badge { display: inline-block; line-height: 0; }
-.store-badge img { height: 52px; width: auto; }
+.store-badge.apple img { height: 52px; width: auto; }
+.store-badge.play { margin: -12px -13px; }
+.store-badge.play img { height: 77px; width: auto; }
 
 .cta {
   display: grid;

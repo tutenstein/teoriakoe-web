@@ -25,11 +25,11 @@ export function storeLinks(ctx, url) {
   const apple = ctx.config.appStore.url;
   const play = playUrl(ctx, url);
   const { appStore, googlePlay } = ctx.badges;
-  const link = (href, badge, label, text) =>
+  const link = (href, badge, label, text, cls) =>
     badge
-      ? `<a class="store-badge" href="${esc(href)}" rel="noopener"><img src="${badge.src}" width="${badge.width}" height="${badge.height}" alt="${label}"></a>`
+      ? `<a class="store-badge ${cls}" href="${esc(href)}" rel="noopener"><img src="${badge.src}" width="${badge.width}" height="${badge.height}" alt="${label}"></a>`
       : `<a class="btn btn-ghost" href="${esc(href)}" rel="noopener"><span class="visually-hidden">Lataa sovellus: </span>${text}</a>`;
-  return `<div class="stores">${link(apple, appStore, 'Lataa App Storesta', 'App Store')}${link(play, googlePlay, 'Hanki se Google Playsta', 'Google Play')}</div>`;
+  return `<div class="stores">${link(apple, appStore, 'Lataa App Storesta', 'App Store', 'apple')}${link(play, googlePlay, 'Hanki se Google Playsta', 'Google Play', 'play')}</div>`;
 }
 
 export function cta(ctx, url, { title, text }) {

@@ -82,13 +82,15 @@ async function buildAssets(assets) {
   for (const file of await fs.readdir(path.join(root, 'static/img/screens'))) {
     screens[file.replace('.webp', '')] = await assets.file(`img/screens/${file}`);
   }
-  // Official store badges, once added to static/badges/ (see README).
+  // Official store badges, once added to static/badges/ (see README). The
+  // Google Play PNG carries built-in padding, so it is drawn taller and its
+  // transparent edge is trimmed with CSS (.store-badge.play).
   const badges = {};
-  for (const [key, file] of [['appStore', 'badges/app-store-fi.svg'], ['googlePlay', 'badges/google-play-fi.svg']]) {
+  for (const [key, file, height] of [['appStore', 'badges/app-store-fi.svg', 52], ['googlePlay', 'badges/google-play-fi.png', 77]]) {
     const full = path.join(root, 'static', file);
     if (!(await exists(full))) continue;
-    const size = svgSize(await fs.readFile(full, 'utf8'));
-    const height = 52;
+    const data = await fs.readFile(full);
+    const size = file.endsWith('.png') ? { width: data.readUInt32BE(16), height: data.readUInt32BE(20) } : svgSize(data.toString('utf8'));
     badges[key] = { src: await assets.file(file), height, width: Math.round((size.width / size.height) * height) };
   }
   return {
